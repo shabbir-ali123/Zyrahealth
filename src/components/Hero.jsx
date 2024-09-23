@@ -7,11 +7,7 @@ function HomeSection() {
         {/* Left Image and Text */}
         <div className="flex items-center">
           <div className="w-1/4 flex flex-col items-center">
-            <img
-              src="/assets/images/Frame.png"
-              alt="Kelly, Age 74"
-              className="rounded-lg shadow-lg mb-2"
-            />
+         <img src="images/HeroImage.png" alt="" srcset="" />
             <div className="text-center text-sm text-gray-600">
               <p className="font-semibold">Kelly, Age 74</p>
               <p>Needs companion care</p>
