@@ -3,9 +3,7 @@ import PersonalCareIcon from '../assets/icons/PersonalCareIcon';
 import HomeMaintance from '../assets/icons/HomeMaintance';
 import CarIcon from '../assets/icons/CarIcon';
 import MovingIcon from '../assets/icons/MovingIcon';
-// import Icon2 from '../icons/Icon2';
-// import Icon3 from '../icons/Icon3';
-// Import other icons as needed
+
 
 const cardsData = [
   {
