@@ -1,8 +1,9 @@
 // src/data/cardsData.js
-import PersonalCareIcon from '../assets/icons/PersonalCareIcon';
-import HomeMaintance from '../assets/icons/HomeMaintance';
-import CarIcon from '../assets/icons/CarIcon';
-import MovingIcon from '../assets/icons/MovingIcon';
+import PersonalCareIcon from '../assets/icons/HomeLove/PersonalCareIcon';
+import HomeMaintance from '../assets/icons/HomeLove/HomeMaintance';
+import CarIcon from '../assets/icons/HomeLove/CarIcon';
+import MovingIcon from '../assets/icons/HomeLove/MovingIcon';
+import WellNess from '../assets/icons/HomeLove/WellNess';
 
 
 const cardsData = [
@@ -38,7 +39,7 @@ const cardsData = [
     id: 3,
     title: 'Wellness',
     description: 'Mobile massage, social activities, community engagement, holistic care',
-    Icon: PersonalCareIcon,
+    Icon: WellNess,
     bgColor: 'bg-[#F1AAF2]'
   },
   {

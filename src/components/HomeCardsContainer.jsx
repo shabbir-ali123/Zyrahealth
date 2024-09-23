@@ -6,7 +6,7 @@ import cardsData from '../data/CardsData';
 function HomeCardsContainer() {
     return (
         <>
-            <div className='max-w-7xl mx-auto'>
+            <div className='max-w-7xl mx-auto py-[80px]'>
                 <div className='text-center'>
                     <h2 className='font-semibold text-4xl'>Right in the home you love</h2>
                     <p className='font-medium text-xl text-[#575757] py-4'>Get professional, vetted help delivered to your home</p>
