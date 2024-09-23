@@ -7,34 +7,34 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: light;
 
   font-synthesis: none;
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.wrapper{
-display: flex;
-gap: 10px;
+.wrapper {
+  display: flex;
+  gap: 10px;
 }
-.parent{
+.parent {
   display: flex;
   align-items: center;
-  border: 1px solid #DBDBE0;
+  border: 1px solid #dbdbe0;
   padding: 20px;
   border-radius: 15px;
 }
-.icon{
-  background-color: #BFB5FE;
+.icon {
+  background-color: #bfb5fe;
   padding: 20px;
   border-radius: 13px;
 }
-.content{
+.content {
   text-align: left;
   padding: 0px 10px;
 }
-.content h3{
-  font-weight:700;
+.content h3 {
+  font-weight: 700;
   font-size: 17px;
 }
