@@ -2,14 +2,14 @@ import React from "react";
 
 function HomeSection() {
   return (
-    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative ">
+    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative h-screen	 ">
       <div className="container mx-auto text-center">
         {/* Left Image and Text */}
         <div
-          className="flex items-end pb-6
+          className="flex items-center pb-6
         "
         >
-          <div className=" flex flex-col items-center gap-3.5	">
+          <div className=" flex flex-col items-center gap-3.5 mt-36	">
             <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl		">
               <p className="font-semibold">Kelly, Age 74</p>
               <p>Needs companion care</p>
@@ -36,7 +36,7 @@ function HomeSection() {
           </div>
 
           {/* Content with Images */}
-          <div className="flex justify-center items-end  space-x-4">
+          <div className="flex justify-center items-end  space-x-4 mt-36">
             {/* Right Image and Text */}
             <div className="flex flex-col items-end">
               <img src="images/HeroImage.png" alt="" srcset="" />
@@ -45,7 +45,7 @@ function HomeSection() {
         </div>
 
         {/* Form Section */}
-        <div className="px-10	py-6	 w-10/12	   mx-auto bg-white p-6 rounded-3xl	 shadow-md absolute	bottom-[-20%] mb-8 left-[8%]">
+        <div className="px-10	py-6	 w-10/12	   mx-auto bg-white p-6 rounded-3xl	 shadow-md absolute	bottom-[-15%] mb-8 left-[8%]">
           <div>
             <div className="grid grid-cols-4 gap-4 items-end	justify-items-end">
               {/* Left Section: Heading and Description */}

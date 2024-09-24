@@ -29,42 +29,42 @@ const cardsData = [
     bgColor: 'bg-[#A9EEB8]'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Moving and storage',
     description: 'Downsizing, packing, relocation, and storage solutions',
     Icon: MovingIcon,
     bgColor: 'bg-[#9DEFEB]'
   },
   {
-    id: 3,
+    id: 5,
     title: 'Wellness',
     description: 'Mobile massage, social activities, community engagement, holistic care',
     Icon: WellNess,
     bgColor: 'bg-[#F1AAF2]'
   },
   {
-    id: 3,
+    id: 6,
     title: 'Medical equipment',
     description: 'Mobility aids, monitoring devices, safety installations',
     Icon: PersonalCareIcon,
     bgColor: 'bg-[#AADCF2]'
   },
   {
-    id: 3,
+    id: 7,
     title: 'Professional services',
     description: 'Taxes, retirement and estate planning, mobile notary, wills, trusts, and more',
     Icon: PersonalCareIcon,
     bgColor: 'bg-[#F2BBAA]'
   },
   {
-    id: 3,
+    id: 8,
     title: 'Pet care',
     description: 'Feeding, walking, grooming, and veterinary care',
     Icon: PersonalCareIcon,
     bgColor: 'bg-[#D7F2AA]'
   },
   {
-    id: 3,
+    id: 9,
     title: 'End-of-life planning',
     description: 'Hospice care and funeral arrangements',
     Icon: PersonalCareIcon,

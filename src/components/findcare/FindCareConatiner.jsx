@@ -1,25 +1,27 @@
 // src/components/HomeCard.jsx
 import React from 'react';
-import PowerFulCard from './PowerFulCard';
-import PowerData from '../data/PowerData';
-function PowerFulContainer() {
+import FindCare from './FindCare';
+import FindCareData from '../../data/FindCareData';
+function FindCareContainer() {
     return (
         <>
-        <div className='bg-[#F7F7F7]'>
+        <div className='bg-white'>
         <div className='max-w-7xl mx-auto py-[80px]'>
                 <div className='text-center '>
-                    <h2 className='font-semibold text-4xl'>Simple in use. Powerful in action</h2>
+                    <h2 className='font-semibold text-4xl'>Finding care just got simplified</h2>
+                    <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
                    
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-10 mt-[50px]">
 
 
-                    {PowerData.map((card) => (
-                        <PowerFulCard
+                    {FindCareData.map((card) => (
+                        <FindCare
                             key={card.id}
                             title={card.title}
                             description={card.description}
-                            Icon={card.Icon}
+                            count={card.count}
+                            bgColor={card.bgColor}
                         />
                     ))}
                 </div>
@@ -33,6 +35,6 @@ function PowerFulContainer() {
     );
 }
 
-export default PowerFulContainer
+export default FindCareContainer
     ;
 

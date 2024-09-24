@@ -1,6 +1,6 @@
 import React from "react";
 import HomeCard from "./HomeCard";
-import cardsData from "../data/CardsData";
+import cardsData from "../../data/CardsData";
 
 function HomeCardsContainer() {
   return (
@@ -8,6 +8,7 @@ function HomeCardsContainer() {
       <div className="max-w-7xl mx-auto  py-20 mt-20	">
         <div className="text-center">
           <h2 className="font-semibold text-4xl">Right in the home you love</h2>
+          <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
           <p className="font-medium text-xl text-[#575757] py-4">
             Get professional, vetted help delivered to your home
           </p>
