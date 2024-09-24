@@ -7,6 +7,7 @@ import HomeSection from "../components/Hero";
 import FindCareContainer from "../components/findcare/FindCareConatiner";
 import FaqsContainer from "../components/Faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
+import HeroSlider from "../components/HeroSlider";
 function HomePage() {
   return (
     <>
@@ -16,6 +17,7 @@ function HomePage() {
       <HomeCardsContainer />
       <PowerFUlContainer />
       <FindCareContainer />
+      <HeroSlider/>
       <FaqsContainer />
       <PowerFUlContainer />
       <FindCareContainer />
