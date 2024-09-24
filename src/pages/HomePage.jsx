@@ -19,8 +19,7 @@ function HomePage() {
       <FindCareContainer />
       <HeroSlider/>
       <FaqsContainer />
-      <PowerFUlContainer />
-      <FindCareContainer />
+    
       <KnowledgeContainer />
     </>
   );
