@@ -28,7 +28,7 @@ const KnowledgeCard = ({ image, title, description }) => {
         <p className="mb-3 font-medium text-base text-[#5E5E6F] ">
           {description}
         </p>
-     <div className="flex gap-4">
+     <div className="flex gap-4 border-t-2 py-4 border-[#EAEAF1]">
         <p className="text-[#5E5E6F] font-base font-regular">By ZyraHealth</p>
         <p className="text-[#5E5E6F]">APR 8, 2024</p>
         <p className="text-[#5E5E6F]">5 min</p>
