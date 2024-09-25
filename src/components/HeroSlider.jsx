@@ -46,30 +46,48 @@ const HeroSlider = () => {
         className="w-[80%] h-[60vh] my-6"
       >
         {/* First Slide */}
-        <SwiperSlide className='text-center flex flex-col items-center gap-4'>
+        <SwiperSlide className='text-center flex flex-col items-center justify-center gap-4'>
           <h1 className='text-4xl font-semibold'>Trusted By Families Like Yours</h1>
           <img src={img} alt="person" />
           <h2 className='text-lg font-semibold text-wrap w-[63%]'>
           We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.
           </h2>
+          <div className='flex flex-col gap-3'>
+            <div className='border border-black'></div>
+            <p className='text-[#5E5E6F]'>
+            Sara R. Charlotte, NC
+            </p>
+          </div>
         </SwiperSlide>
 
         {/* Second Slide */}
-        <SwiperSlide className='text-center flex flex-col items-center gap-4'>
+        <SwiperSlide className='text-center flex flex-col items-center justify-center gap-4'>
           <h1 className='text-4xl font-semibold'>Trusted By Families Like Yours</h1>
           <img src={img} alt="person" />
           <h2 className='text-lg font-semibold text-wrap w-[63%]'>
-            We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.
+          We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.
           </h2>
+          <div className='flex flex-col gap-3'>
+            <div className='border border-black'></div>
+            <p className='text-[#5E5E6F]'>
+            Sara R. Charlotte, NC
+            </p>
+          </div>
         </SwiperSlide>
 
         {/* Third Slide */}
-        <SwiperSlide className='text-center flex flex-col items-center gap-4'>
+        <SwiperSlide className='text-center flex flex-col items-center justify-center gap-4'>
           <h1 className='text-4xl font-semibold'>Trusted By Families Like Yours</h1>
           <img src={img} alt="person" />
           <h2 className='text-lg font-semibold text-wrap w-[63%]'>
-            We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.
+          We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.
           </h2>
+          <div className='flex flex-col gap-3'>
+            <div className='border border-black'></div>
+            <p className='text-[#5E5E6F]'>
+            Sara R. Charlotte, NC
+            </p>
+          </div>
         </SwiperSlide>
       </Swiper>
       {/* coustom buttons */}

@@ -8,6 +8,7 @@ import FindCareContainer from "../components/findcare/FindCareConatiner";
 import FaqsContainer from "../components/Faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
 import HeroSlider from "../components/HeroSlider";
+import Getintouch from "../components/getintouch/Getintouch";
 function HomePage() {
   return (
     <>
@@ -19,8 +20,8 @@ function HomePage() {
       <FindCareContainer />
       <HeroSlider/>
       <FaqsContainer />
-    
       <KnowledgeContainer />
+      <Getintouch/>
     </>
   );
 }
