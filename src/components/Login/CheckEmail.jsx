@@ -3,7 +3,7 @@ import EmailIcon from "../../assets/icons/LoginIcons/EmailIcon";
 
 function CheckYourEmail() {
   return (
-    <div className="min-h-screen flex items-center justify-center w-full ">
+    <div className="min-h-screen flex flex-col items-center justify-center w-full ">
       <EmailIcon />
       <div className="   px-8 py-6 max-w-lg	">
         <h1 className="text-3xl	 font-semibold text-center mb-2 ">

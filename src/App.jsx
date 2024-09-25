@@ -4,6 +4,10 @@ import HomePage from "./pages/HomePage";
 import LoginPages from "./pages/LoginPages";
 import ResetPassword from "./components/Login/ResetPassword";
 import CheckYourEmail from "./components/Login/CheckEmail";
+import NewPassword from "./components/Login/NewPassword";
+import LoginPageHeader from "./layout/Header/LoginPageHeader";
+import GuidingHeroSection from "./pages/GuidingPrinciple/GuidingSection";
+import GuidingPlatform from "./pages/GuidingPrinciple/GuidingPlatform";
 
 function App() {
   return (
@@ -11,7 +15,11 @@ function App() {
       {/* <HomePage/> */}
       {/* <LoginPages /> */}
       {/* <ResetPassword /> */}
-      <CheckYourEmail />
+      {/* <CheckYourEmail /> */}
+      {/* <LoginPageHeader /> */}
+      {/* <NewPassword /> */}
+      {/* <GuidingHeroSection /> */}
+      <GuidingPlatform />
     </>
   );
 }
