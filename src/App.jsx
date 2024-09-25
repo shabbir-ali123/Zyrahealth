@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./App.css";
 import HomePage from "./pages/HomePage";
 import LoginPages from "./pages/LoginPages";
 import ResetPassword from "./components/Login/ResetPassword";

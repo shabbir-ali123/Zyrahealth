@@ -3,8 +3,8 @@ import React from 'react';
 
 function HomeCard({ title, description, Icon, bgColor }) {
   return (
-    <div className="flex gap-[10px]">
-      <div className="flex items-center border border-[#DBDBE0] p-5 rounded-[15px]">
+    <div className="flex gap-[10px] w-full">
+      <div className="flex items-center border border-[#DBDBE0] p-5 rounded-[15px] w-full">
         <div className={`${bgColor} p-5 rounded-[13px] mr-4`}>
 
           <Icon />
