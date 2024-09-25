@@ -7,21 +7,24 @@ import HomeSection from "../components/Hero";
 import FindCareContainer from "../components/findcare/FindCareConatiner";
 import FaqsContainer from "../components/Faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
+import PlacingHelpSection from "../components/Placeing/placeing";
+import Footer from "../layout/footer/footer";
 import HeroSlider from "../components/HeroSlider";
-import Getintouch from "../components/getintouch/Getintouch";
 function HomePage() {
   return (
     <>
-      <Header />
+       <Header />
       <HomeSection />
       <HeroWrapper />
       <HomeCardsContainer />
       <PowerFUlContainer />
       <FindCareContainer />
-      <HeroSlider/>
+      <HeroSlider />
       <FaqsContainer />
+
       <KnowledgeContainer />
-      <Getintouch/>
+      <PlacingHelpSection />
+      <Footer />
     </>
   );
 }

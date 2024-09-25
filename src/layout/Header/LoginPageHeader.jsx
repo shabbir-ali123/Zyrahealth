@@ -1,9 +1,11 @@
 import React from "react";
 
-function Header({ styles = "" }) {
+function LoginPageHeader() {
   return (
     <header
-      className={`${styles} py-5 px-8 shadow-lg shadow-black border-b border-[#EAEAF1]	`}
+      className=" py-5 px-8 shadow-md border-b-2 border-[#EAEAF1]	
+
+"
     >
       <div className="container mx-auto flex justify-between items-center ">
         {/* Logo */}
@@ -23,40 +25,9 @@ function Header({ styles = "" }) {
             </svg>
           </a>
         </div>
-
-        <nav className="flex gap-12	">
-          <a
-            href="#"
-            className=" hover:text-gray-900 text-[17px] text-[#5E5E6F] font-semibold"
-          >
-            Find Help
-          </a>
-          <a
-            href="#"
-            className=" hover:text-gray-900 text-[17px] text-[#5E5E6F] font-semibold"
-          >
-            Resources
-          </a>
-          <a
-            href="#"
-            className=" hover:text-gray-900 text-[17px] text-[#5E5E6F] font-semibold"
-          >
-            Become a Partner
-          </a>
-        </nav>
-
-        {/* Login Button */}
-        <div>
-          <a
-            href="#"
-            className=" border-2 border-black text-black font-semibold hover:text-white hover:bg-gray-600 px-7	 py-2 rounded-full transition"
-          >
-            Login
-          </a>
-        </div>
       </div>
     </header>
   );
 }
 
-export default Header;
+export default LoginPageHeader;

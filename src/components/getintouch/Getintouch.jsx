@@ -3,11 +3,13 @@ import React from 'react'
 const Getintouch = () => {
   return (
     <>
-    <section className='flex flex-col px-9'>
+    <section className='flex flex-col px-9 pt-5'>
         <div className=''>
-            <h3 className='text-base font-semibold'>Home | <span>Get in touch</span></h3>
+            <h3 className='text-base font-bold text-black'>Home | <span className='text-[#747474]'>Get in touch</span></h3>
         </div>
-        <div></div>
+        <div>
+          <h1>Get in touch</h1>
+        </div>
     </section>
     </>
   )
