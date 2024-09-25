@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Header({ styles = "" }) {
   return (
     <header
@@ -47,12 +47,13 @@ function Header({ styles = "" }) {
 
         {/* Login Button */}
         <div>
-          <a
+        <Link to="/login"  className=" border-2 border-black text-black font-semibold hover:text-white hover:bg-gray-600 px-7	 py-2 rounded-full transition">Login</Link>
+          {/* <a
             href="#"
             className=" border-2 border-black text-black font-semibold hover:text-white hover:bg-gray-600 px-7	 py-2 rounded-full transition"
           >
             Login
-          </a>
+          </a> */}
         </div>
       </div>
     </header>
