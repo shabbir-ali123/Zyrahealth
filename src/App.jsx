@@ -9,19 +9,14 @@ import LoginPageHeader from "./layout/Header/LoginPageHeader";
 import GuidingHeroSection from "./pages/GuidingPrinciple/GuidingSection";
 import GuidingPlatform from "./pages/GuidingPrinciple/GuidingPlatform";
 import Getintouch from "./components/getintouch/Getintouch";
+import Gethelp from "./components/getintouch/Gethelp";
+import Contact from "./components/getintouch/Contact";
+import Getintouchpage from "./pages/Getintouchpage";
 
 function App() {
   return (
     <>
-      {/* <HomePage/> */}
-      {/* <LoginPages /> */}
-      {/* <ResetPassword /> */}
-      {/* <CheckYourEmail /> */}
-      {/* <LoginPageHeader /> */}
-      {/* <NewPassword /> */}
-      {/* <GuidingHeroSection /> */}
-      {/* <GuidingPlatform /> */}
-      <Getintouch />
+    <Getintouchpage/>
     </>
   );
 }
