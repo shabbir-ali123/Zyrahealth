@@ -7,6 +7,8 @@ import HomeSection from "../components/Hero";
 import FindCareContainer from "../components/findcare/FindCareConatiner";
 import FaqsContainer from "../components/Faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
+import PlacingHelpSection from "../components/Placeing/placeing";
+import Footer from "../layout/footer/footer";
 function HomePage() {
   return (
     <>
@@ -20,6 +22,8 @@ function HomePage() {
       <PowerFUlContainer />
       <FindCareContainer />
       <KnowledgeContainer />
+      <PlacingHelpSection />
+      <Footer />
     </>
   );
 }
