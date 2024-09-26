@@ -9,7 +9,7 @@ function FaqsCard({ title, description }) {
   };
 
   return (
-    <div className="transition-all duration-200 bg-white border border-gray-200 shadow-md cursor-pointer hover:bg-gray-50 rounded-xl	border-[#B6B9CE] border">
+    <div className="transition-all duration-200 bg-white border border-[#B6B9CE]  cursor-pointer hover:bg-gray-50 rounded-xl	">
       <button
         type="button"
         className="flex items-center justify-between w-full p-3.5 sm:p-6"

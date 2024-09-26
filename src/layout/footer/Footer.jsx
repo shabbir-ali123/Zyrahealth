@@ -2,6 +2,7 @@ import React from "react";
 import FacebookIcon from "../../assets/icons/FooterIcons/Facebook";
 import LinkedinIcon from "../../assets/icons/FooterIcons/Linkedin";
 import TwiterIcon from "../../assets/icons/FooterIcons/Twitter";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-[#1C1C1C] pt-16	px-9">
@@ -133,9 +134,9 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:text-blue-400">
+                  <Link to="/guiding-hero" class="hover:text-blue-400">
                     Guiding principles
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#" class="hover:text-blue-400">

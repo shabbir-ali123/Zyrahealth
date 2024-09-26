@@ -8,7 +8,7 @@ function PlacingHelpSection() {
       </h2>
       <div className="w-20 h-[3px] bg-black mx-auto mt-4"></div>
 
-      <div className=" flex items-center justify-around md:flex-cols gap-10 mt-10">
+      <div className="flex items-center justify-around gap-10 mt-10 max-md:flex-col max-md:px-5">
         {/* Left Section */}
 
         <div class="max-w-lg	 bg-[#FBF1F1]  shadow  dark:border-gray-700 rounded-tr-full	rounded-tl-full">

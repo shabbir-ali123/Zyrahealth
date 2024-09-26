@@ -2,18 +2,18 @@ import { useState } from "react";
 import HomeCardsContainer from "../components/homecard/HomeCardsContainer";
 import HeroWrapper from "../components/HeroWrapper";
 import PowerFUlContainer from "../components/power/PowerFulContainer";
-import Header from "../layout/Header";
 import HomeSection from "../components/Hero";
 import FindCareContainer from "../components/findcare/FindCareConatiner";
-import FaqsContainer from "../components/Faqs/FaqsContainer";
+import FaqsContainer from "../components/faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
-import PlacingHelpSection from "../components/Placeing/placeing";
-import Footer from "../layout/footer/footer";
+import PlacingHelpSection from "../components/placeing/placeing";
 import HeroSlider from "../components/HeroSlider";
+import Header from "../layout/Header";
+import Footer from "../layout/footer/Footer";
 function HomePage() {
   return (
     <>
-       <Header />
+      <Header />
       <HomeSection />
       <HeroWrapper />
       <HomeCardsContainer />
