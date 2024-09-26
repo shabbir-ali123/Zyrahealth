@@ -10,7 +10,7 @@ function GuidingHeroSection() {
     <>
       <div className="bg-gradient-to-t from-lime-200 to-yellow-200  ">
         <Header styles="shadow-none" />
-        <div class="relative flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-20 xl:h-screen">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex flex-1 w-full flex-col items-center justify-center text-center  xl:h-screen">
           <h1 class="max-w-6xl font-display  max-sm:text-3xl  md:text-5xl xl:text-6xl font-semibold tracking-normal	z-10	">
             Elevating aging,
             <div class="relative whitespace-nowrap sm:text-3xl md:text-5xl xl:text-6xl ">
@@ -27,7 +27,7 @@ function GuidingHeroSection() {
           <img
             src="images/Ellipse.png"
             alt=""
-            class="ellipse-2 absolute right-[77%] top-[11%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 sm:top-[4%] max-sm:top-[2%] sm:right-[70%]  max-sm:opacity-50"
+            class="ellipse-2 absolute left-[5%] top-[12%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 sm:top-[14%] max-sm:top-[2%] sm:right-[70%]  max-sm:opacity-50"
           />
 
           <img
@@ -38,12 +38,12 @@ function GuidingHeroSection() {
           <img
             src="images/Ellipse3.png"
             alt=""
-            class="ellipse-3 absolute right-[90%] top-[50%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 max-sm:right-[77%]  max-sm:opacity-50"
+            class="ellipse-3 absolute left-[2%] top-[60%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 max-sm:right-[77%]  max-sm:opacity-50"
           />
           <img
             src="images/Ellipse4.png"
             alt=""
-            class="ellipse-4 absolute left-[83%] top-[68%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 max-sm:left-[77%] max-sm:opacity-50 "
+            class="ellipse-4 absolute right-[13%] top-[68%]  w-[147px] sm:w-[73px] md:w-[84px] lg:w-[147px] !w-[73px] sm:!w-[73px] md:!w-[84px] lg:!w-[147px] z-0 max-sm:left-[77%] max-sm:opacity-50 "
           />
           <img
             src="images/Ellipse5.png"

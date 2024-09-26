@@ -13,6 +13,11 @@ import HelpCardsContainer from "./components/helpsection/HelpContainer";
 import DeliveryForm from "./components/helpsection/DeliveryForm";
 import HelpCardsGrid from "./components/helpcenter/HelpCenterContainer";
 import Layout from "./layout/Layout";
+import Gethelp from "./components/getintouch/Gethelp";
+import Contact from "./components/getintouch/Contact";
+import Getintouchpage from "./pages/Getintouchpage";
+import HelpCenterPartner from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
+import FamilyPartnerHelp from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
 import ResourcesPage from "./pages/ResourcesPage";
 
 function App() {
@@ -37,6 +42,15 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/check-email" element={<CheckYourEmail />} />
         <Route path="/new-password" element={<NewPassword />} />
+        <Route path="/guiding-hero" element={<GuidingHeroSection />} />
+        <Route path="/guiding-platform" element={<GuidingPlatform />} />
+        <Route path="/guiding-review" element={<GuidingReview />} />
+
+        <Route path="/get-in-touch" element={<Getintouch />} />
+        <Route path="/help-section" element={<HelpCardsContainer />} />
+        <Route path="/delivery-form" element={<DeliveryForm />} />
+        <Route path="/help-center" element={<HelpCardsGrid />} />
+        <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
       </Routes>
     </Router>
   );

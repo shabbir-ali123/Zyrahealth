@@ -37,5 +37,44 @@ const faqsData = [
     description: "ZyraHealth provides both free and paid service options...",
   },
 ];
+const HelpCenterFaqs = [
+  {
+    id: 8,
+    title: "What is ZyraHealth and what is the mission of the company? ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 9,
+    title: "What type of companies can list their services on the platform?",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 10,
+    title: "How does joining the platform benefit my business? ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 11,
+    title: "How does the application process work to join the platform? ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 12,
+    title:
+      "What information do I need to provide during the application process? ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 13,
+    title:
+      "How long does it take to get approved and start offering my services?  ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+  {
+    id: 14,
+    title: "Are there any fees or costs to join the platform?  ",
+    description: "ZyraHealth provides both free and paid service options...",
+  },
+];
 
-export default faqsData;
+export { faqsData, HelpCenterFaqs };
