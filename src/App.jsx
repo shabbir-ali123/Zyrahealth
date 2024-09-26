@@ -15,6 +15,9 @@ import HelpCard from "./components/helpsection/Help";
 import HelpCardsContainer from "./components/helpsection/HelpContainer";
 import DeliveryForm from "./components/helpsection/DeliveryForm";
 import HelpCardsGrid from "./components/helpcenter/HelpCenterContainer";
+import Gethelp from "./components/getintouch/Gethelp";
+import Contact from "./components/getintouch/Contact";
+import Getintouchpage from "./pages/Getintouchpage";
 
 function App() {
   return (
