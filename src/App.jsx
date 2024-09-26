@@ -18,12 +18,14 @@ import HelpCardsGrid from "./components/helpcenter/HelpCenterContainer";
 import Gethelp from "./components/getintouch/Gethelp";
 import Contact from "./components/getintouch/Contact";
 import Getintouchpage from "./pages/Getintouchpage";
+import ResourcesPage from "./pages/ResourcesPage";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/login" element={<LoginPages />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/check-email" element={<CheckYourEmail />} />
