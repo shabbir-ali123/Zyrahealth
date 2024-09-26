@@ -13,7 +13,7 @@ import Footer from "../layout/footer/Footer";
 function HomePage() {
   return (
     <>
-      <Header />
+    
       <HomeSection />
       <HeroWrapper />
       <HomeCardsContainer />
@@ -24,7 +24,7 @@ function HomePage() {
 
       <KnowledgeContainer />
       <PlacingHelpSection />
-      <Footer />
+    
     </>
   );
 }
