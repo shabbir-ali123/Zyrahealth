@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeSection() {
   return (
-    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative h-screen	 ">
+    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative xl-h-screen	 ">
       <div className="container mx-auto text-center">
         {/* Left Image and Text */}
         <div
@@ -10,7 +10,7 @@ function HomeSection() {
         "
         >
           <div className=" flex flex-col items-center gap-3.5 mt-36	">
-            <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl		">
+            <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl 		">
               <p className="font-semibold">Kelly, Age 74</p>
               <p>Needs companion care</p>
             </div>
@@ -18,14 +18,14 @@ function HomeSection() {
           </div>
           <div>
             {/* Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-5">
+            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px]">
               Comfort. Choice. Home
             </h1>
-            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto	">
+            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg	">
               Find trusted vendors to help with{" "}
-              <span className="text-[#109088] font-semibold">
-                Personal Care
-              </span>{" "}
+              <span className="text-[#109088] font-semibold animate-fadeIn">
+                Personal Care ` `
+              </span>
               to live the best of your days at home.
             </p>
 

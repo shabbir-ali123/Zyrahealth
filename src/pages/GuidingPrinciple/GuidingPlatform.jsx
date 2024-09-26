@@ -12,25 +12,19 @@ function GuidingPlatform() {
           <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
         </div>
         <div className="flex flex-col items-center justify-center py-12">
-          {/* Top section with the icons and the centered text */}
           <div className="flex items-center justify-center space-x-4">
-            {/* Left decorative icon */}
             <FlowerLeft />
 
-            {/* Main centered text */}
             <p className="text-center text-xl sm:text-2xl font-medium text-gray-700 xl:w-7/12	leading-5	">
               We're driven to enable families help their loved ones age at home
               with good health, dignity, and comfort.
             </p>
 
-            {/* Right decorative icon */}
             <FlowerIcon />
           </div>
 
-          {/* Divider line */}
           <div className="w-full my-6 border-t border-gray-200"></div>
 
-          {/* Bottom section with the supporting text */}
           <div className="text-center text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl">
             To deliver on this mission, we bring together services, resources,
             and tools to help families find support, make informed decisions,
@@ -39,7 +33,6 @@ function GuidingPlatform() {
         </div>
         <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24  flex flex-col justify-center">
           <div className="flex flex-col sm:flex-row mx-auto">
-            {/* Starts component */}
             <a href="#_">
               <img
                 src="images/Guiding1.png"
