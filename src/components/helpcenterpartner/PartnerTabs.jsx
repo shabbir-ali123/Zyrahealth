@@ -11,7 +11,7 @@ import FindingHelp from "../../assets/icons/helpcentericons/Findinghelp";
 import GettingStarted from "../../assets/icons/helpcentericons/Gettingstarted";
 import FamilyHelpCard from "./FamilyPartnerCards";
 import FamilyHelpData from "../../data/FamilyHelpData";
-import PartnerHelpContainer from "./PartnerHelpContainer";
+import PartnerHelpContainer from "../../pages/PartnerHelpContainer";
 import ServiceListing from "../../assets/icons/helpcentericons/ServiceListing";
 import ClientInteraction from "../../assets/icons/helpcentericons/ClientInteraction";
 import MarketingVisibility from "../../assets/icons/helpcentericons/MarketingVisibility";

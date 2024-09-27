@@ -1,35 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link
-import HelpCenterHeroSection from "../helpcenter/HelpCenterHeroSection";
-import PartnerTabs from "./PartnerTabs";
-import TickIcon from "../../assets/icons/FaqsDropDown/TickIcon";
-import CrossIcon from "../../assets/icons/FaqsDropDown/CrossIcon";
+import HelpCenterHeroSection from "../components/helpcenter/HelpCenterHeroSection";
+import FamilyTabs from "../components/helpcenterpartner/FamilyTabs";
+import CrossIcon from "../assets/icons/FaqsDropDown/CrossIcon";
+import TickIcon from "../assets/icons/FaqsDropDown/TickIcon";
 
-function PartnerHelpContainer() {
+function FamilyPartnerHelp() {
   return (
     <>
       <HelpCenterHeroSection
-        changeTheHeading="Partner help center"
-        changeTheText="All you need to connect with families in need"
+        changeTheHeading="Family help center"
+        changeTheText="Your guide to finding the right care and support"
         extraThings={
           <>
             <span className="mx-2">|</span>
             <Link
-              to="/partner-help-center"
+              to="/family-help-center"
               className="hover:underline text-gray-500"
             >
-              Partner help center
+              Family help center
             </Link>
           </>
         }
       />
-      <PartnerTabs />
+      <FamilyTabs />
       <div className=" flex flex-col items-center justify-center max-w-2xl mx-auto p-10	bg-[#DEFFED] rounded-[40px] mb-20 max-sm:w-[18rem]">
         <h1 className="text-2xl	 tracking-tight font-semibold sm:text md:text-">
           Did you find the help you were looking for?
         </h1>
 
-        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4	">
+        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4 	">
           <button className="rounded-full flex items-center gap-4 bg-transparent border-[#1C1C1C] border-2 px-10	text-base	font-medium py-[13px]	 text-black">
             No
             <CrossIcon />
@@ -44,4 +44,4 @@ function PartnerHelpContainer() {
   );
 }
 
-export default PartnerHelpContainer;
+export default FamilyPartnerHelp;

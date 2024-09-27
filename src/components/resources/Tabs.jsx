@@ -12,27 +12,45 @@ import AllResources from '../../assets/icons/resources/AllResources';
 import Popular from '../../assets/icons/resources/PopularIcon';
 import Star from '../../assets/icons/resources/StarIcon';
 import Transportation from '../../assets/icons/resources/Transportation';
+
 function Tabs() {
-
     const [activeTab, setActiveTab] = useState(0);
+    const [currentPage, setCurrentPage] = useState(1); // Page state
+    const cardsPerPage = 6; // Number of cards per page
 
+    const handlePageChange = (newPage) => {
+        setCurrentPage(newPage);
+    };
+
+    const paginate = (data) => {
+        const startIndex = (currentPage - 1) * cardsPerPage;
+        return data.slice(startIndex, startIndex + cardsPerPage);
+    };
     const tabs = [
         {
             title: 'All articles',
             icon: <AllResources className="h-10 w-10 bg-black rounded-full p-10" />,
             content: (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justfiy-center">
-                    {KnowledgeData.map((card) => (
-                        <KnowledgeCard
-                            key={card.id}
-                            image={card.image}
-                            title={card.title}
-                            chip={card.chip}
-                            description={card.description}
-                            Icon={card.Icon}
-                            bgColor={card.bgColor}
-                        />
-                    ))}
+                <div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justify-center">
+                        {paginate(KnowledgeData).map((card) => (
+                            <KnowledgeCard
+                                key={card.id}
+                                image={card.image}
+                                title={card.title}
+                                chip={card.chip}
+                                description={card.description}
+                                Icon={card.Icon}
+                                bgColor={card.bgColor}
+                            />
+                        ))}
+                    </div>
+                    <Pagination
+                        totalCards={KnowledgeData.length}
+                        cardsPerPage={cardsPerPage}
+                        currentPage={currentPage}
+                        onPageChange={handlePageChange}
+                    />
                 </div>
             ),
         },
@@ -40,19 +58,27 @@ function Tabs() {
             title: 'Features',
             icon: <Star className="h-10 w-10 bg-[red] rounded-full p-10" />,
             content: (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justfiy-center">
-                {FeaturedData.map((card) => (
-                    <KnowledgeCard
-                        key={card.id}
-                        image={card.image}
-                        title={card.title}
-                        chip={card.chip}
-                        description={card.description}
-                        Icon={card.Icon}
-                        bgColor={card.bgColor}
+                <div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justify-center">
+                        {paginate(FeaturedData).map((card) => (
+                            <KnowledgeCard
+                                key={card.id}
+                                image={card.image}
+                                title={card.title}
+                                chip={card.chip}
+                                description={card.description}
+                                Icon={card.Icon}
+                                bgColor={card.bgColor}
+                            />
+                        ))}
+                    </div>
+                    <Pagination
+                        totalCards={FeaturedData.length}
+                        cardsPerPage={cardsPerPage}
+                        currentPage={currentPage}
+                        onPageChange={handlePageChange}
                     />
-                ))}
-            </div>
+                </div>
             ),
         },
         {
@@ -136,18 +162,18 @@ function Tabs() {
             icon: <Transportation className="h-10 w-10 bg-[red] rounded-full p-10" />,
             content: (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justfiy-center">
-                {KnowledgeData.map((card) => (
-                    <KnowledgeCard
-                        key={card.id}
-                        image={card.image}
-                        title={card.title}
-                        chip={card.chip}
-                        description={card.description}
-                        Icon={card.Icon}
-                        bgColor={card.bgColor}
-                    />
-                ))}
-            </div>
+                    {KnowledgeData.map((card) => (
+                        <KnowledgeCard
+                            key={card.id}
+                            image={card.image}
+                            title={card.title}
+                            chip={card.chip}
+                            description={card.description}
+                            Icon={card.Icon}
+                            bgColor={card.bgColor}
+                        />
+                    ))}
+                </div>
             ),
         },
         {
@@ -174,18 +200,18 @@ function Tabs() {
             icon: <EndLife className="h-10 w-10 bg-[red] rounded-full p-10" />,
             content: (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-10 justfiy-center">
-                {KnowledgeData.map((card) => (
-                    <KnowledgeCard
-                        key={card.id}
-                        image={card.image}
-                        title={card.title}
-                        chip={card.chip}
-                        description={card.description}
-                        Icon={card.Icon}
-                        bgColor={card.bgColor}
-                    />
-                ))}
-            </div>
+                    {KnowledgeData.map((card) => (
+                        <KnowledgeCard
+                            key={card.id}
+                            image={card.image}
+                            title={card.title}
+                            chip={card.chip}
+                            description={card.description}
+                            Icon={card.Icon}
+                            bgColor={card.bgColor}
+                        />
+                    ))}
+                </div>
             ),
         },
     ];
@@ -219,5 +245,38 @@ function Tabs() {
         </div>
     );
 }
+// Pagination component
+function Pagination({ totalCards, cardsPerPage, currentPage, onPageChange }) {
+    const totalPages = Math.ceil(totalCards / cardsPerPage);
 
+    if (totalPages === 1) return null; // Don't show pagination if only one page
+
+    return (
+        <div className="flex justify-center mt-4">
+            <button
+                onClick={() => onPageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className={`mx-2 ${currentPage === 1 ? 'text-gray-400' : 'text-indigo-500 hover:text-indigo-700'}`}
+            >
+                Previous
+            </button>
+            {[...Array(totalPages)].map((_, index) => (
+                <button
+                    key={index}
+                    onClick={() => onPageChange(index + 1)}
+                    className={`mx-2 ${currentPage === index + 1 ? 'text-indigo-700 font-bold' : 'text-indigo-500 hover:text-indigo-700'}`}
+                >
+                    {index + 1}
+                </button>
+            ))}
+            <button
+                onClick={() => onPageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className={`mx-2 ${currentPage === totalPages ? 'text-gray-400' : 'text-indigo-500 hover:text-indigo-700'}`}
+            >
+                Next
+            </button>
+        </div>
+    );
+}
 export default Tabs;

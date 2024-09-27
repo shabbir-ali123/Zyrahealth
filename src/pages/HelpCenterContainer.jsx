@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import {
-  HelpCenterData,
-  HelpCenterDataPartner,
-} from "../../data/HelpCenterData";
-import { faqsData, HelpCenterFaqs } from "../../data/FaqsData";
-import HelpCenterCard from "./HelpCenterCard";
-import FaqsContainer from "../faqs/FaqsContainer";
-import HelpCenterHeroSection from "./HelpCenterHeroSection";
-import FaqsCard from "../faqs/Faqs";
-import HelpCenterFaqsContainer from "./HelpFaqsContainer";
+import { HelpCenterData, HelpCenterDataPartner } from "../data/HelpCenterData";
+import { faqsData, HelpCenterFaqs } from "../data/FaqsData";
+import HelpCenterCard from "../components/helpcenter/HelpCenterCard";
+import FaqsContainer from "../components/faqs/FaqsContainer";
+import HelpCenterHeroSection from "../components/helpcenter/HelpCenterHeroSection";
+import FaqsCard from "../components/faqs/Faqs";
+import HelpCenterFaqsContainer from "../components/helpcenter/HelpFaqsContainer";
 
 const HelpCardsGrid = () => {
   const [activeData, setActiveData] = useState(HelpCenterData);
@@ -92,7 +89,7 @@ const HelpCardsGrid = () => {
             <p className="mt-3 text-xl text-[#5E5E6F] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:w-[50%]">
               Get the care you need to stay happy and healthy in your home
             </p>
-            <div className="mt-10 md:flex md:justify-center md:items-center">
+            <div className="mt-10 md:flex max-md:justify-center max-md:items-center">
               <button className="rounded-full flex items-center justify-center gap-4 px-20 lg:w-96 text-base font-medium py-3.5 max-sm:py-2 bg-[#1C1C1C] text-white">
                 Contact Support
               </button>

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import HelpCard from "./Help";
-import HelpCardsData from "../../data/HelpSectionData";
-import MessageIcon from "../../assets/icons/helpsection/MessageIcon";
-import HelpDropdownIcon from "../../assets/icons/helpsection/HelpDropdown";
-import LeftArrow from "../../assets/icons/FaqsDropDown/LeftArrow";
+import HelpCard from "../components/helpsection/Help";
+import HelpCardsData from "../data/HelpSectionData";
+import MessageIcon from "../assets/icons/helpsection/MessageIcon";
+import HelpDropdownIcon from "../assets/icons/helpsection/HelpDropdown";
+import LeftArrow from "../assets/icons/FaqsDropDown/LeftArrow";
 function HelpCardsContainer() {
   const [isOpen, setIsOpen] = useState(false);
 
