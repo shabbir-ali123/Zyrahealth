@@ -26,3 +26,13 @@ input[type="checkbox"]:checked::after {
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
 }
+.ql-container.ql-snow {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    height: 20vh;
+    margin: 0px;
+    position: relative;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

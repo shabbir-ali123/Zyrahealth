@@ -9,7 +9,6 @@ import NewPassword from "./components/login/NewPassword";
 import LoginPageHeader from "./layout/Header/LoginPageHeader";
 import GuidingHeroSection from "./pages/GuidingPrinciple/GuidingSection";
 import GuidingPlatform from "./pages/GuidingPrinciple/GuidingPlatform";
-import Getintouch from "./components/getintouch/Getintouch";
 import GuidingReview from "./components/guidingPageCompo/GuidingReview";
 import HelpCard from "./components/helpsection/Help";
 import HelpCardsContainer from "./components/helpsection/HelpContainer";
@@ -31,8 +30,7 @@ function App() {
         <Route path="/guiding-hero" element={<GuidingHeroSection />} />
         <Route path="/guiding-platform" element={<GuidingPlatform />} />
         <Route path="/guiding-review" element={<GuidingReview />} />
-
-        <Route path="/get-in-touch" element={<Getintouch />} />
+        <Route path="/get-in-touchpage" element={<Getintouchpage />} />
         <Route path="/help-section" element={<HelpCardsContainer />} />
         <Route path="/delivery-form" element={<DeliveryForm />} />
         <Route path="/help-center" element={<HelpCardsGrid />} />
