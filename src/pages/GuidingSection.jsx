@@ -1,15 +1,13 @@
 import React from "react";
-import GuidingPlatform from "./GuidingPlatform";
-import GuidingPath from "../../components/guidingPageCompo/GuidingPath";
-import GuidingReview from "../../components/guidingPageCompo/GuidingReview";
-import Footer from "../../layout/footer/Footer";
-import Header from "../../layout/Header";
+
+import GuidingReview from "../components/guidingPageCompo/GuidingReview";
+import GuidingPath from "../components/guidingPageCompo/GuidingPath";
+import GuidingPlatform from "../components/guidingPageCompo/GuidingPlatform";
 
 function GuidingHeroSection() {
   return (
     <>
       <div className="bg-gradient-to-t from-lime-200 to-yellow-200  ">
-        <Header styles="shadow-none" />
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex flex-1 w-full flex-col items-center justify-center text-center  xl:h-screen">
           <h1 class="max-w-6xl font-display  max-sm:text-3xl  md:text-5xl xl:text-6xl font-semibold tracking-normal	z-10	">
             Elevating aging,
@@ -60,7 +58,6 @@ function GuidingHeroSection() {
       <GuidingPlatform />
       <GuidingPath />
       <GuidingReview />
-      <Footer />
     </>
   );
 }

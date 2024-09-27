@@ -6,21 +6,16 @@ import LoginPages from "./pages/LoginPages";
 import ResetPassword from "./components/login/ResetPassword";
 import CheckYourEmail from "./components/login/CheckEmail";
 import NewPassword from "./components/login/NewPassword";
-import LoginPageHeader from "./layout/Header/LoginPageHeader";
-import GuidingHeroSection from "./pages/GuidingPrinciple/GuidingSection";
-import GuidingPlatform from "./pages/GuidingPrinciple/GuidingPlatform";
+import GuidingHeroSection from "./pages/GuidingSection";
+import GuidingPlatform from "./components/guidingPageCompo/GuidingPlatform";
 import Getintouch from "./components/getintouch/Getintouch";
 import GuidingReview from "./components/guidingPageCompo/GuidingReview";
-import HelpCard from "./components/helpsection/Help";
 import HelpCardsContainer from "./components/helpsection/HelpContainer";
 import DeliveryForm from "./components/helpsection/DeliveryForm";
 import HelpCardsGrid from "./components/helpcenter/HelpCenterContainer";
-import Gethelp from "./components/getintouch/Gethelp";
-import Contact from "./components/getintouch/Contact";
-import Getintouchpage from "./pages/Getintouchpage";
-import HelpCenterPartner from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
-import FamilyPartnerHelp from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
+import FamilyPartnerHelp from "./components/helpcenterpartner/FamilyHelpContainer";
 import ResourcesPage from "./pages/ResourcesPage";
+import PartnerHelpContainer from "./components/helpcenterpartner/PartnerHelpContainer";
 
 function App() {
   return (
@@ -41,6 +36,8 @@ function App() {
         <Route path="/delivery-form" element={<DeliveryForm />} />
         <Route path="/help-center" element={<HelpCardsGrid />} />
         <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
+        <Route path="/partner-help-center" element={<PartnerHelpContainer />} />
+        <Route path="/recources-page" element={<ResourcesPage />} />
       </Routes>
     </Router>
   );

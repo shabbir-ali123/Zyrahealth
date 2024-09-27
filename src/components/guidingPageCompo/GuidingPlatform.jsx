@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../layout/Header";
 import FlowerIcon from "../../assets/icons/GuidingSectionIcons/Flower";
 import FlowerLeft from "../../assets/icons/GuidingSectionIcons/FlowerLeft";
 
