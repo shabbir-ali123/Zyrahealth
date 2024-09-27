@@ -24,12 +24,11 @@ function Header({ styles = "" }) {
             <a href="#" className="inline-flex items-center  px-1 pt-1  	">
               Find help
             </a>
-            <a
-              href="#"
-              className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700"
-            >
+
+            <Link to="/resources" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700">
               Resources
-            </a>
+            </Link>
+
             <a
               href="#"
               className="inline-flex items-center border-b-2 border-transparent px-1 pt-1  hover:border-gray-300 hover:text-gray-700"
@@ -74,15 +73,15 @@ function Header({ styles = "" }) {
             Find help
           </DisclosureButton>
           <DisclosureButton
-            as="a"
-            href="#"
+
             className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
           >
-            Resources
+            <Link to="/resources">
+              Resources
+            </Link>
+
           </DisclosureButton>
           <DisclosureButton
-            as="a"
-            href="#"
             className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
           >
             Become a partner

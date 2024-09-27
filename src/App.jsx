@@ -20,12 +20,14 @@ import Contact from "./components/getintouch/Contact";
 import Getintouchpage from "./pages/Getintouchpage";
 import HelpCenterPartner from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
 import FamilyPartnerHelp from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
+import ResourcesPage from "./pages/ResourcesPage";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/login" element={<LoginPages />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/check-email" element={<CheckYourEmail />} />
