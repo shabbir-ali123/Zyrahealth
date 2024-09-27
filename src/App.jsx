@@ -18,6 +18,8 @@ import HelpCardsGrid from "./components/helpcenter/HelpCenterContainer";
 import Gethelp from "./components/getintouch/Gethelp";
 import Contact from "./components/getintouch/Contact";
 import Getintouchpage from "./pages/Getintouchpage";
+import HelpCenterPartner from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
+import FamilyPartnerHelp from "./components/partnerFamilyHelpCenter/FamilyHelpCenter";
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function App() {
         <Route path="/help-section" element={<HelpCardsContainer />} />
         <Route path="/delivery-form" element={<DeliveryForm />} />
         <Route path="/help-center" element={<HelpCardsGrid />} />
+        <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
       </Routes>
     </Router>
   );
