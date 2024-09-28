@@ -16,13 +16,16 @@ import Layout from "./layout/Layout";
 import FamilyPartnerHelp from "./pages/FamilyHelpContainer";
 import ResourcesPage from "./pages/ResourcesPage";
 import PartnerHelpContainer from "./pages/PartnerHelpContainer";
-import HelpCard from "./components/helpsection/Help";
 import ArticlePage from "./pages/ArticlePage";
+import HelpCard from "./components/helpsection/Help";
 import ArticleContainer from "./components/article/ArticleTextContainer";
+import ScrollToTop from "./components/scroll/ScrollTop";
+import Getintouchpage from "./pages/Getintouchpage";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
@@ -32,27 +35,25 @@ function App() {
           <Route path="/guiding-hero" element={<GuidingHeroSection />} />
           <Route path="/guiding-platform" element={<GuidingPlatform />} />
           <Route path="/guiding-review" element={<GuidingReview />} />
-          <Route path="/get-in-touch" element={<Getintouch />} />
+          <Route path="/get-in-touch" element={<Getintouchpage />} />
           <Route path="/help-section" element={<HelpCardsContainer />} />
           <Route path="/delivery-form" element={<DeliveryForm />} />
           <Route path="/help-center" element={<HelpCardsGrid />} />
+          <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
+          <Route
+            path="/partner-help-center"
+            element={<PartnerHelpContainer />}
+          />
         </Route>
 
+        {/* Routes outside of Layout */}
         <Route path="/login" element={<LoginPages />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/check-email" element={<CheckYourEmail />} />
         <Route path="/new-password" element={<NewPassword />} />
-        <Route path="/guiding-section" element={<GuidingHeroSection />} />
-        <Route path="/guiding-platform" element={<GuidingPlatform />} />
-        <Route path="/guiding-review" element={<GuidingReview />} />
-        <Route path="/help-section" element={<HelpCardsContainer />} />
-        <Route path="/delivery-form" element={<DeliveryForm />} />
-        <Route path="/help-center" element={<HelpCardsGrid />} />
-        <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
-        <Route path="/partner-help-center" element={<PartnerHelpContainer />} />
-        <Route path="/recources-page" element={<ResourcesPage />} />
+
+        {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
-        <Route path="/article" element={<ArticlePage />} />
       </Routes>
     </Router>
   );

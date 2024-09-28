@@ -29,15 +29,22 @@ function FamilyPartnerHelp() {
           Did you find the help you were looking for?
         </h1>
 
-        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4 	">
-          <button className="rounded-full flex items-center gap-4 bg-transparent border-[#1C1C1C] border-2 px-10	text-base	font-medium py-[13px]	 text-black">
-            No
-            <CrossIcon />
-          </button>
-          <button className="rounded-full flex items-center gap-4 bg-black px-10	text-base	font-medium py-[13px]	 text-white border-[#1C1C1C] border-2">
-            Yes
-            <TickIcon />
-          </button>
+        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4">
+          <Link to="/no-page">
+            {" "}
+            <button className="rounded-full flex items-center gap-4 bg-transparent border-[#1C1C1C] border-2 px-10 text-base font-medium py-[13px] text-black">
+              No
+              <CrossIcon />
+            </button>
+          </Link>
+
+          <Link to="/yes-page">
+            {" "}
+            <button className="rounded-full flex items-center gap-4 bg-black px-10 text-base font-medium py-[13px] text-white border-[#1C1C1C] border-2">
+              Yes
+              <TickIcon />
+            </button>
+          </Link>
         </div>
       </div>
     </>

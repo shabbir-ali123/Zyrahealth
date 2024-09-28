@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import ReviewIcon from "../../assets/icons/GuidingSectionIcons/ReviewStar";
 
 function GuidingReview() {
@@ -40,18 +42,19 @@ function GuidingReview() {
           Built together.
         </span>
         <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-0 sm:gap-x-4 text-base font-medium">
-          <a
-            href="#"
-            class="flex flex-row items-center justify-center gap-x-2  text-black px-10 py-3.5 rounded-full border border-black"
+          <Link
+            to="/help-center"
+            className="flex flex-row items-center justify-center gap-x-2 text-black px-10 py-3.5 rounded-full border border-black"
           >
             Find help
-          </a>
-          <a
-            href="#demo"
-            class="flex flex-row items-center justify-center gap-x-2 rounded-full border border-teal-500 px-10 py-3 text-white bg-[#1C1C1C]"
+          </Link>
+
+          <Link
+            to="/become-partner"
+            className="flex flex-row items-center justify-center gap-x-2 rounded-full border border-teal-500 px-10 py-3 text-white bg-[#1C1C1C]"
           >
             Become a partner
-          </a>
+          </Link>
         </div>
       </div>
     </>
