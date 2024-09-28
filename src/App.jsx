@@ -45,7 +45,6 @@ function App() {
         <Route path="/guiding-section" element={<GuidingHeroSection />} />
         <Route path="/guiding-platform" element={<GuidingPlatform />} />
         <Route path="/guiding-review" element={<GuidingReview />} />
-        <Route path="/get-in-touchpage" element={<Getintouchpage />} />
         <Route path="/help-section" element={<HelpCardsContainer />} />
         <Route path="/delivery-form" element={<DeliveryForm />} />
         <Route path="/help-center" element={<HelpCardsGrid />} />
