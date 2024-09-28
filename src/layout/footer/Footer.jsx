@@ -1,8 +1,8 @@
 import React from "react";
-import FacebookIcon from "../../assets/icons/FooterIcons/Facebook";
-import LinkedinIcon from "../../assets/icons/FooterIcons/Linkedin";
-import TwiterIcon from "../../assets/icons/FooterIcons/Twitter";
-import FooterLogo from "../../assets/icons/FooterIcons/FooterLogo";
+import FacebookIcon from "../../assets/icons/footerIcons/Facebook";
+import LinkedinIcon from "../../assets/icons/footerIcons/Linkedin";
+import TwiterIcon from "../../assets/icons/footerIcons/Twitter";
+import FooterLogo from "../../assets/icons/footerIcons/FooterLogo";
 import { Link } from "react-router-dom";
 function Footer() {
   return (

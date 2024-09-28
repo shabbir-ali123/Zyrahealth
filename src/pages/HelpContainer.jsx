@@ -3,7 +3,7 @@ import HelpCard from "../components/helpsection/Help";
 import HelpCardsData from "../data/HelpSectionData";
 import MessageIcon from "../assets/icons/helpsection/MessageIcon";
 import HelpDropdownIcon from "../assets/icons/helpsection/HelpDropdown";
-import LeftArrow from "../assets/icons/FaqsDropDown/LeftArrow";
+import LeftArrow from "../assets/icons/faqsDropDown/LeftArrow";
 function HelpCardsContainer() {
   const [isOpen, setIsOpen] = useState(false);
 

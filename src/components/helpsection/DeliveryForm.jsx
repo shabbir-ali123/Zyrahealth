@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import LeftArrow from "../../assets/icons/FaqsDropDown/LeftArrow";
-import RightArrow from "../../assets/icons/FaqsDropDown/RightArrow";
+import LeftArrow from "../../assets/icons/faqsDropDown/LeftArrow";
+import RightArrow from "../../assets/icons/faqsDropDown/RightArrow";
 
 function MessageIcon() {
   return <span>💬</span>;

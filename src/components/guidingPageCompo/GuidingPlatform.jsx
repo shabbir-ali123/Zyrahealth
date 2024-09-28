@@ -1,6 +1,6 @@
 import React from "react";
-import FlowerIcon from "../../assets/icons/GuidingSectionIcons/Flower";
-import FlowerLeft from "../../assets/icons/GuidingSectionIcons/FlowerLeft";
+import FlowerIcon from "../../assets/icons/guidingSectionIcons/Flower";
+import FlowerLeft from "../../assets/icons/guidingSectionIcons/FlowerLeft";
 
 function GuidingPlatform() {
   return (

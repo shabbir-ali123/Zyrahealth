@@ -1,10 +1,10 @@
 import React from "react";
-import PhoneIcon from "../../assets/icons/ContactIcons/PhoneIcon";
-import Personicon from "../../assets/icons/ContactIcons/Personicon";
-import Dollericon from "../../assets/icons/ContactIcons/Dollericon";
+import PhoneIcon from "../../assets/icons/contacticons/PhoneIcon";
+import Personicon from "../../assets/icons/contacticons/Personicon";
+import Dollericon from "../../assets/icons/contacticons/Dollericon";
 import "../../assets/css/input.css";
 import { useState } from "react";
-import Clockicon from "../../assets/icons/ContactIcons/Clockicon";
+import Clockicon from "../../assets/icons/contacticons/Clockicon";
 import Form from "../form/Form";
 import Salesform from "../form/Salesform";
 

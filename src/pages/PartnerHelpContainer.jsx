@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HelpCenterHeroSection from "../components/helpcenter/HelpCenterHeroSection";
-import TickIcon from "../assets/icons/FaqsDropDown/TickIcon";
-import CrossIcon from "../assets/icons/FaqsDropDown/CrossIcon";
+import TickIcon from "../assets/icons/faqsDropDown/TickIcon";
+import CrossIcon from "../assets/icons/faqsDropDown/CrossIcon";
 import PartnerTabs from "../components/helpcenterpartner/PartnerTabs";
 import Header from "../layout/header/Header";
 

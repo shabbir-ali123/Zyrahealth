@@ -4,7 +4,7 @@ import TwitterIcon from "../../assets/icons/resources/Twitter";
 import FacebookIcon from "../../assets/icons/resources/FacebookIcon";
 import LinkedinIcon from "../../assets/icons/resources/Linkedin";
 import EmailIcon from "../../assets/icons/resources/Email";
-import LeftTick from "../../assets/icons/FaqsDropDown/LeftTick";
+import LeftTick from "../../assets/icons/faqsDropDown/LeftTick";
 
 function ResourcesHero({
   paraChange = "Got questions? We've answers",

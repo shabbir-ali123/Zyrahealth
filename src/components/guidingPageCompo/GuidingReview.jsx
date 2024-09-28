@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import ReviewIcon from "../../assets/icons/GuidingSectionIcons/ReviewStar";
+import ReviewIcon from "../../assets/icons/guidingSectionIcons/ReviewStar";
 
 function GuidingReview() {
   return (
