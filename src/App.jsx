@@ -17,6 +17,8 @@ import FamilyPartnerHelp from "./pages/FamilyHelpContainer";
 import ResourcesPage from "./pages/ResourcesPage";
 import PartnerHelpContainer from "./pages/PartnerHelpContainer";
 import HelpCard from "./components/helpsection/Help";
+import ArticlePage from "./pages/ArticlePage";
+import ArticleContainer from "./components/article/ArticleTextContainer";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/article" element={<ArticlePage />} />
+
           <Route path="/guiding-hero" element={<GuidingHeroSection />} />
           <Route path="/guiding-platform" element={<GuidingPlatform />} />
           <Route path="/guiding-review" element={<GuidingReview />} />
@@ -50,6 +54,7 @@ function App() {
         <Route path="/partner-help-center" element={<PartnerHelpContainer />} />
         <Route path="/recources-page" element={<ResourcesPage />} />
         <Route path="/help-sections" element={<HelpCard />} />
+        <Route path="/article" element={<ArticlePage />} />
       </Routes>
     </Router>
   );

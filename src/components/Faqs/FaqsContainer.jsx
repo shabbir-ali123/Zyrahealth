@@ -18,7 +18,7 @@ function FaqsContainer({ headingChange = " Got questions? We've answers" }) {
               key={faq.id}
               title={faq.title}
               description={faq.description}
-              bgColor="bg-white" // Customize color if needed
+              bgColor="bg-white"
             />
           ))}
         </div>

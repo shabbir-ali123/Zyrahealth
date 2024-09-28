@@ -1,13 +1,17 @@
 import { useState } from "react";
-import ResorcesHero from "../components/resources/ResourcesHero"
+import ResorcesHero from "../components/resources/ResourcesHero";
 import Tabs from "../components/resources/Tabs";
 function ResourcesPage() {
-    return (
-        <>
-            <ResorcesHero />
-            <Tabs/>
-        </>
-    );
+  return (
+    <>
+      <ResorcesHero
+        paraChange={``}
+        showSocialIcons={false} // Show social icons on this page
+        showReadMore={true}
+      />
+      <Tabs />
+    </>
+  );
 }
 
 export default ResourcesPage;
