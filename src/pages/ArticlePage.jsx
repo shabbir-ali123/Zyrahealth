@@ -7,7 +7,7 @@ import FacebookIcon from "../assets/icons/resources/FacebookIcon";
 import TwitterIcon from "../assets/icons/resources/Twitter";
 import EmailIcon from "../assets/icons/resources/Email";
 import LinkedinIcon from "../assets/icons/resources/Linkedin";
-import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
+import RelatedArticleContainer from "../components/article/RelatedArticleContainer";
 
 const redirectTo = (url) => {
   window.open(url, "_blank");
@@ -122,7 +122,7 @@ function ArticlePage() {
           </div>
         </section>
       </div>
-      <KnowledgeContainer />
+      <RelatedArticleContainer />
     </>
   );
 }
