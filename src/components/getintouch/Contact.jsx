@@ -1,10 +1,10 @@
 import React from "react";
-import PhoneIcon from "../../assets/icons/ContactIcons/PhoneIcon";
-import Personicon from "../../assets/icons/ContactIcons/Personicon";
-import Dollericon from "../../assets/icons/ContactIcons/Dollericon";
+import PhoneIcon from "../../assets/icons/contacticons/PhoneIcon";
+import Personicon from "../../assets/icons/contacticons/Personicon";
+import Dollericon from "../../assets/icons/contacticons/Dollericon";
 import "../../assets/css/input.css";
 import { useState } from "react";
-import Clockicon from "../../assets/icons/ContactIcons/Clockicon";
+import Clockicon from "../../assets/icons/contacticons/Clockicon";
 import Form from "../form/Form";
 import Salesform from "../form/Salesform";
 
@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="mt-3 sm:mx-40 flex flex-col items-center ">
+    <section className="mt-3 sm:mx-40 flex flex-col items-center poppin">
       <div className="grid md:grid-cols-3 gap-5">
         {/* Tab one */}
         <div

@@ -21,7 +21,7 @@ function FamilyTabs() {
       title: "Getting started",
       icon: <GettingStarted className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center ">
+        <div className=" gap-8 mx-10 justify-center poppin ">
           {FamilyHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}

@@ -12,7 +12,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 function Header({ styles = "" }) {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className=" shadow">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between">
           <div className="flex">
@@ -25,16 +25,18 @@ function Header({ styles = "" }) {
               Find help
             </a>
 
-            <Link to="/resources" className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700">
+            <Link
+              to="/resources"
+              className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700"
+            >
               Resources
             </Link>
-
-            <a
-              href="#"
-              className="inline-flex items-center border-b-2 border-transparent px-1 pt-1  hover:border-gray-300 hover:text-gray-700"
+            <Link
+              to="/"
+              className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700"
             >
               Become a partner
-            </a>
+            </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <Link
@@ -72,18 +74,10 @@ function Header({ styles = "" }) {
           >
             Find help
           </DisclosureButton>
-          <DisclosureButton
-
-            className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-          >
-            <Link to="/resources">
-              Resources
-            </Link>
-
+          <DisclosureButton className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
+            <Link to="/resources">Resources</Link>
           </DisclosureButton>
-          <DisclosureButton
-            className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-          >
+          <DisclosureButton className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
             Become a partner
           </DisclosureButton>
         </div>

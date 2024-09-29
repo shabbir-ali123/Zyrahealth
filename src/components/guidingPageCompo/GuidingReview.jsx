@@ -1,10 +1,12 @@
 import React from "react";
-import ReviewIcon from "../../assets/icons/GuidingSectionIcons/ReviewStar";
+import { Link } from "react-router-dom";
+
+import ReviewIcon from "../../assets/icons/guidingSectionIcons/ReviewStar";
 
 function GuidingReview() {
   return (
     <>
-      <blockquote className="flex flex-col items-center p-4">
+      <blockquote className="flex flex-col items-center p-4 poppin">
         <p className="lg:w-5/12	 	 font-semibold text-center text-[30px] sm:text-lg md:text-xl xl:text-5xl md:text-2xl lg:text-3xl">
           "To care for those who once cared for us is one of the highest honors"
         </p>
@@ -40,18 +42,19 @@ function GuidingReview() {
           Built together.
         </span>
         <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-0 sm:gap-x-4 text-base font-medium">
-          <a
-            href="#"
-            class="flex flex-row items-center justify-center gap-x-2  text-black px-10 py-3.5 rounded-full border border-black"
+          <Link
+            to="/help-center"
+            className="flex flex-row items-center justify-center gap-x-2 text-black px-10 py-3.5 rounded-full border border-black"
           >
             Find help
-          </a>
-          <a
-            href="#demo"
-            class="flex flex-row items-center justify-center gap-x-2 rounded-full border border-teal-500 px-10 py-3 text-white bg-[#1C1C1C]"
+          </Link>
+
+          <Link
+            to="/become-partner"
+            className="flex flex-row items-center justify-center gap-x-2 rounded-full border border-teal-500 px-10 py-3 text-white bg-[#1C1C1C]"
           >
             Become a partner
-          </a>
+          </Link>
         </div>
       </div>
     </>

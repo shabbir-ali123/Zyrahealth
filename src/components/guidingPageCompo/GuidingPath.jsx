@@ -3,7 +3,7 @@ import React from "react";
 
 function GuidingPath() {
   return (
-    <div className="bg-[#F7F7F7] py-24	">
+    <div className="bg-[#F7F7F7] py-24	poppin">
       <div className="text-center">
         <h2 className="font-semibold text-4xl">
           Principles that guide our path

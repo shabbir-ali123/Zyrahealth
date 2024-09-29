@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import GuidingReview from "../components/guidingPageCompo/GuidingReview";
 import GuidingPath from "../components/guidingPageCompo/GuidingPath";
@@ -7,7 +8,28 @@ import GuidingPlatform from "../components/guidingPageCompo/GuidingPlatform";
 function GuidingHeroSection() {
   return (
     <>
-      <div className="bg-gradient-to-t from-lime-200 to-yellow-200  ">
+      <div className="bg-gradient-to-t from-lime-200 to-yellow-200 poppin  ">
+        <div className="flex justify-start w-full px-5 py-2 text-gray-500 text-sm font-medium">
+          <Link
+            to="/"
+            className={`hover:underline ${
+              location.pathname === "/" ? "text-gray-500" : "text-black"
+            }`}
+          >
+            Home
+          </Link>
+          <span className="mx-2">|</span>
+          <Link
+            to="/help-center"
+            className={`hover:underline ${
+              location.pathname === "/guiding-section"
+                ? "text-gray-500"
+                : "text-black"
+            }`}
+          >
+            Guiding Principles
+          </Link>
+        </div>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex flex-1 w-full flex-col items-center justify-center text-center  xl:h-screen">
           <h1 class="max-w-6xl font-display  max-sm:text-3xl  md:text-5xl xl:text-6xl font-semibold tracking-normal	z-10	">
             Elevating aging,

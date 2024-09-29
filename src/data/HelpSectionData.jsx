@@ -1,14 +1,14 @@
 // src/data/helpCardsData.js
 
-import HomeMaintance from "../assets/icons/HomeLove/HomeMaintance";
-import CarIcon from "../assets/icons/HomeLove/CarIcon";
-import MovingIcon from "../assets/icons/HomeLove/MovingIcon";
-import WellNess from "../assets/icons/HomeLove/WellNess";
-import PersonalCareIcon from "../assets/icons/HomeLove/PersonalCareIcon";
-import EndLifePlanning from "../assets/icons/HomeLove/End-of-LifePlanning";
-import PetCare from "../assets/icons/HomeLove/PetCare";
-import MedicalEquipment from "../assets/icons/HomeLove/MedicalEquipment";
-import ProfessionalServices from "../assets/icons/HomeLove/ProfessionalServices";
+import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
+import CarIcon from "../assets/icons/homeLove/CarIcon";
+import MovingIcon from "../assets/icons/homeLove/MovingIcon";
+import WellNess from "../assets/icons/homeLove/WellNess";
+import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";
+import EndLifePlanning from "../assets/icons/homeLove/End-of-LifePlanning";
+import PetCare from "../assets/icons/homeLove/PetCare";
+import MedicalEquipment from "../assets/icons/homeLove/MedicalEquipment";
+import ProfessionalServices from "../assets/icons/homeLove/ProfessionalServices";
 const HelpCardsData = [
   {
     id: 1,

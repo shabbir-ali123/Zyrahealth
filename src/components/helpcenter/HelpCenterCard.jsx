@@ -3,7 +3,7 @@ import React from "react";
 function HelpCenterCard({ name, description, Icon }) {
   return (
     <div
-      className={` rounded-xl border border-[#EAEAF1] flex flex-col items-center py-8	px-5		 bg-[#F7F7F7]`}
+      className={` rounded-xl border border-[#EAEAF1] flex flex-col items-center py-8	px-5 poppin		 bg-[#F7F7F7]`}
     >
       <div className="p-2.5 rounded-full mr-4 bg-[#A9EEB8]">
         <Icon />

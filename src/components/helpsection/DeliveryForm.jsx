@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import LeftArrow from "../../assets/icons/FaqsDropDown/LeftArrow";
-import RightArrow from "../../assets/icons/FaqsDropDown/RightArrow";
+import LeftArrow from "../../assets/icons/faqsDropDown/LeftArrow";
+import RightArrow from "../../assets/icons/faqsDropDown/RightArrow";
 
 function MessageIcon() {
   return <span>💬</span>;
@@ -18,7 +18,7 @@ function DeliveryForm() {
   };
 
   return (
-    <div className="">
+    <div className="poppin">
       <div className="  py-10 max-md:px-6 px-8">
         <div className="max-w-screen-sm mx-auto">
           <h2 className="text-center text-2xl font-semibold text-[#DBDBE0] mb-6">

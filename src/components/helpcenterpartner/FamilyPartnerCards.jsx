@@ -14,7 +14,7 @@ const FamilyHelpCard = ({ title, description }) => {
       : description;
 
   return (
-    <div className="max-w-2xl	 mx-auto bg-white    relative group cursor-pointer">
+    <div className="max-w-2xl	 mx-auto bg-white    relative group cursor-pointer poppin">
       <div className="xl:px-5 py-2">
         <h5 className="mb-2 text-xl font-bold ">{title}</h5>
 

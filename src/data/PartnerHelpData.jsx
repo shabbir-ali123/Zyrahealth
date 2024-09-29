@@ -1,9 +1,9 @@
 // src/data/FamilyHelpData.js
-import PersonalCareIcon from "../assets/icons/HomeLove/PersonalCareIcon";
-import HomeMaintance from "../assets/icons/HomeLove/HomeMaintance";
-import CarIcon from "../assets/icons/HomeLove/CarIcon";
-import MovingIcon from "../assets/icons/HomeLove/MovingIcon";
-import WellNess from "../assets/icons/HomeLove/WellNess";
+import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";
+import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
+import CarIcon from "../assets/icons/homeLove/CarIcon";
+import MovingIcon from "../assets/icons/homeLove/MovingIcon";
+import WellNess from "../assets/icons/homeLove/WellNess";
 
 const PartnerHelpData = [
   {
