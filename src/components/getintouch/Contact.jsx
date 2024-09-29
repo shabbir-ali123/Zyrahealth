@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="mt-3 sm:mx-40 flex flex-col items-center ">
+    <section className="mt-3 sm:mx-40 flex flex-col items-center poppin">
       <div className="grid md:grid-cols-3 gap-5">
         {/* Tab one */}
         <div

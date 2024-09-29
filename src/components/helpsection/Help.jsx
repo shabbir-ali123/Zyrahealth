@@ -3,7 +3,7 @@ import React from "react";
 
 function HelpCard({ name, description, Icon, bgColor }) {
   return (
-    <div className="flex items-center gap-3 border border-[#B6B9CE] rounded-2xl py-2.5	px-4	 w-full">
+    <div className="flex items-center gap-3 border border-[#B6B9CE] rounded-2xl py-2.5	px-4 poppin	 w-full">
       {/* Profile Image */}
       <div className={`${bgColor} p-2.5 rounded-[13px] mr-4`}>
         <Icon />

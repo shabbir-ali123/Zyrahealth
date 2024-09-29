@@ -8,7 +8,7 @@ import GuidingPlatform from "../components/guidingPageCompo/GuidingPlatform";
 function GuidingHeroSection() {
   return (
     <>
-      <div className="bg-gradient-to-t from-lime-200 to-yellow-200  ">
+      <div className="bg-gradient-to-t from-lime-200 to-yellow-200 poppin  ">
         <div className="flex justify-start w-full px-5 py-2 text-gray-500 text-sm font-medium">
           <Link
             to="/"

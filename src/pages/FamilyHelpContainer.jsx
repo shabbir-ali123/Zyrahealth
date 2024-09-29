@@ -24,7 +24,7 @@ function FamilyPartnerHelp() {
         }
       />
       <FamilyTabs />
-      <div className=" flex flex-col items-center justify-center max-w-2xl mx-auto p-10	bg-[#DEFFED] rounded-[40px] mb-20 max-sm:w-[18rem]">
+      <div className=" flex flex-col items-center justify-center max-w-2xl mx-auto p-10	bg-[#DEFFED] rounded-[40px] mb-20 max-sm:w-[18rem] poppin">
         <h1 className="text-2xl	 tracking-tight font-semibold sm:text md:text-">
           Did you find the help you were looking for?
         </h1>

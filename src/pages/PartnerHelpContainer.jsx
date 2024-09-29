@@ -25,12 +25,12 @@ function PartnerHelpContainer() {
         }
       />
       <PartnerTabs />
-      <div className=" flex flex-col items-center justify-center max-w-2xl mx-auto p-10	bg-[#DEFFED] rounded-[40px] mb-20 max-sm:w-[18rem]">
+      <div className=" flex flex-col items-center justify-center max-w-2xl mx-auto p-10	bg-[#DEFFED] rounded-[40px] mb-20 max-sm:w-[18rem] poppin">
         <h1 className="text-2xl	 tracking-tight font-semibold sm:text md:text-">
           Did you find the help you were looking for?
         </h1>
 
-        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4">
+        <div className="mt-10 flex max-sm:flex-col md:items-center gap-4 poppin">
           <Link to="/no-page">
             {" "}
             {/* Add the desired path for "No" */}

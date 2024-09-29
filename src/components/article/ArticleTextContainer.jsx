@@ -5,7 +5,7 @@ import ArticleCard from "./ArticleCard";
 
 function ArticleContainer() {
   return (
-    <div className="max-w-7xl mx-auto grid grid-cols-1  gap-2">
+    <div className="max-w-7xl mx-auto grid grid-cols-1  gap-2 poppin">
       {" "}
       {ArticleData.map((article) =>
         article.description ? (

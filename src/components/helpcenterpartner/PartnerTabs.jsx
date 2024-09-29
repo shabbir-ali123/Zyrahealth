@@ -27,7 +27,7 @@ function PartnerTabs() {
       title: "Getting started",
       icon: <GettingStarted className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center ">
+        <div className=" gap-8 mx-10 justify-center poppin ">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -43,7 +43,7 @@ function PartnerTabs() {
       title: "Account & profile",
       icon: <AccountProfile className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -58,7 +58,7 @@ function PartnerTabs() {
       title: "Service listings",
       icon: <ServiceListing className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -75,7 +75,7 @@ function PartnerTabs() {
         <ClientInteraction className="h-10 w-10 bg-black rounded-full p-10" />
       ),
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -90,7 +90,7 @@ function PartnerTabs() {
       title: "Payments & fees",
       icon: <PaymentsFees className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -105,7 +105,7 @@ function PartnerTabs() {
       title: "Trust & safety",
       icon: <TrustSafety className="h-10 w-10 bg-black rounded-full p-10" />,
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -122,7 +122,7 @@ function PartnerTabs() {
         <MarketingVisibility className="h-10 w-10 bg-black rounded-full p-10" />
       ),
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -139,7 +139,7 @@ function PartnerTabs() {
         <SupportResources className="h-10 w-10 bg-black rounded-full p-10" />
       ),
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -156,7 +156,7 @@ function PartnerTabs() {
         <LegalCompliance className="h-10 w-10 bg-black rounded-full p-10" />
       ),
       content: (
-        <div className=" gap-8 mx-10 justify-center">
+        <div className=" gap-8 mx-10 justify-center poppin">
           {PartnerHelpData.map((card) => (
             <FamilyHelpCard
               key={card.id}
@@ -170,7 +170,7 @@ function PartnerTabs() {
   ];
 
   return (
-    <div className="w-full mx-auto px-4 py-8">
+    <div className="w-full mx-auto px-4 py-8 poppin">
       <div className="flex justify-evenly border-b justify-center border-gray-200 mb-4 pb-10	">
         {tabs.map((tab, index) => (
           <button

@@ -10,7 +10,7 @@ function HelpCenterHeroSection({
 
   return (
     <section>
-      <div className="relative items-center bg-[#F7F7F7] w-full px-5 py-12 md:px-12 lg:px-16 lg:py-24">
+      <div className="relative items-center bg-[#F7F7F7] w-full px-5 py-12 md:px-12 lg:px-16 poppin lg:py-24">
         {/* Breadcrumb */}
         <div className="flex justify-start w-full px-5 py-2 text-gray-500 text-sm font-medium">
           <Link

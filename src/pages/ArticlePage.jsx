@@ -29,7 +29,7 @@ function ArticlePage() {
         showSocialIcons={true}
         showReadMore={false}
       />
-      <div className="p-6 bg-white max-w-4xl mx-auto">
+      <div className="p-6 bg-white max-w-4xl mx-auto poppin">
         {/* Author Info */}
         <div className="flex items-center max-sm:flex-col mb-4 justify-between border-b py-10 max-md:py-2">
           <div className="flex items-center">

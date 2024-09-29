@@ -56,7 +56,7 @@ function HelpCardsContainer() {
 
           {/* Dropdown Options */}
           {isOpen && (
-            <ul className="absolute w-full border border-gray-300 rounded-lg mt-2 bg-white z-10">
+            <ul className="absolute w-full border border-gray-300 rounded-lg mt-2 bg-white z-10 poppin">
               <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                 Myself
               </li>
@@ -70,7 +70,7 @@ function HelpCardsContainer() {
           )}
         </div>
 
-        <div className="mt-6">
+        <div className="mt-6 poppin">
           <h2 className="text-xl font-semibold mb-4">
             What kind of help do you need?
           </h2>
@@ -88,7 +88,7 @@ function HelpCardsContainer() {
             ))}
           </div>
         </div>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 poppin">
           <button className="rounded-full flex items-center gap-4 bg-transparent border-[#1C1C1C] border-2 px-20	text-base	font-medium py-3.5	 text-black">
             Next
             <LeftArrow />

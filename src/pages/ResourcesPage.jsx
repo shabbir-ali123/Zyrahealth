@@ -6,7 +6,7 @@ function ResourcesPage() {
     <>
       <ResorcesHero
         paraChange={``}
-        showSocialIcons={false} // Show social icons on this page
+        showSocialIcons={false}
         showReadMore={true}
       />
       <Tabs />

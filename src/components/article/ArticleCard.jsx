@@ -3,7 +3,7 @@ import React from "react";
 
 function ArticleCard({ heading, text }) {
   return (
-    <div className="max-w-4xl mx-auto pb-10 ">
+    <div className="max-w-4xl mx-auto pb-10 poppin">
       <div className="mb-5">
         <h2 className="font-semibold text-2xl">{heading}</h2>
       </div>

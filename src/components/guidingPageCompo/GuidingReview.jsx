@@ -6,7 +6,7 @@ import ReviewIcon from "../../assets/icons/guidingSectionIcons/ReviewStar";
 function GuidingReview() {
   return (
     <>
-      <blockquote className="flex flex-col items-center p-4">
+      <blockquote className="flex flex-col items-center p-4 poppin">
         <p className="lg:w-5/12	 	 font-semibold text-center text-[30px] sm:text-lg md:text-xl xl:text-5xl md:text-2xl lg:text-3xl">
           "To care for those who once cared for us is one of the highest honors"
         </p>

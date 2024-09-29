@@ -8,7 +8,7 @@ const RelatedArticleCard = ({ image, title, description, chip }) => {
       : description;
 
   return (
-    <div className="max-w-xl bg-white border border-gray-200 rounded-lg border-[#EAEAF1] relative group cursor-pointer">
+    <div className="max-w-xl bg-white border border-gray-200 rounded-lg border-[#EAEAF1] relative group cursor-pointer poppin">
       <a href="#">
         <img className="rounded-t-lg" src={image} alt={title} />
       </a>

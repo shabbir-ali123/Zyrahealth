@@ -28,7 +28,7 @@ const HelpCardsGrid = () => {
     <>
       <HelpCenterHeroSection changeTheHeading="We're happy to help" />
 
-      <div className="max-w-screen-lg mx-auto">
+      <div className="max-w-screen-lg mx-auto poppin">
         <div className="flex justify-around m-10 p-4 bg-[#F7F7F7] rounded-full max-md:flex-col max-md:gap-10 max-md:bg-transparent ">
           <button
             onClick={() => handleButtonClick("families")}
@@ -75,7 +75,7 @@ const HelpCardsGrid = () => {
         />
       </div>
 
-      <section className="sm:mt-6 lg:mt-8 mt-12 max-w-7xl mx-auto px-4 max-md:px-5 sm:px-6 lg:px-8 bg-[#E5FFEF] rounded-[40px]">
+      <section className="sm:mt-6 lg:mt-8 mt-12 max-w-7xl mx-auto px-4 max-md:px-5 sm:px-6 lg:px-8 bg-[#E5FFEF] rounded-[40px] poppin">
         <div className="mb-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 mt-0 lg:px-8  flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row py-16 md:text-center ">
           <div className="max-md:text-center lg:text-left">
             <h1 className="text-4xl tracking-tight font-semibold sm:text-5xl md:text-6xl">

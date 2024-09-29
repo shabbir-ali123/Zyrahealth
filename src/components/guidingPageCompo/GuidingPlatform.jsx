@@ -5,7 +5,7 @@ import FlowerLeft from "../../assets/icons/guidingSectionIcons/FlowerLeft";
 function GuidingPlatform() {
   return (
     <>
-      <div className="bg-zinc-50 overflow-hidden pt-12">
+      <div className="bg-zinc-50 overflow-hidden pt-12 poppin">
         <div className="text-center">
           <h2 className="font-semibold text-4xl">A platform with a purpose</h2>
           <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>

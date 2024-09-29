@@ -9,7 +9,7 @@ const SupportCard = ({
   onButtonClick,
 }) => {
   return (
-    <section className="sm:mt-6 lg:mt-8 mt-12 max-w-5xl mx-auto px-4 max-md:px-5 sm:px-6 lg:px-8 bg-[#E5FFEF] rounded-[40px]">
+    <section className="sm:mt-6 lg:mt-8 mt-12 max-w-5xl mx-auto px-4 max-md:px-5 sm:px-6 lg:px-8 bg-[#E5FFEF] rounded-[40px] poppin">
       <div className="mb-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 mt-0 lg:px-8 flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row py-16 md:text-center">
         <div className="max-md:text-center lg:text-left">
           <h1 className="text-2xl	 tracking-tight font-semibold max-sm:text-lg max-md:text-xl">

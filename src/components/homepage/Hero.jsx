@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeSection() {
   return (
-    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative xl-h-screen	 ">
+    <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 px-4 relative xl-h-screen	poppin ">
       <div className="container mx-auto text-center">
         {/* Left Image and Text */}
         <div
@@ -18,7 +18,7 @@ function HomeSection() {
           </div>
           <div>
             {/* Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px]">
+            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] poppin">
               Comfort. Choice. Home
             </h1>
             <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg	">

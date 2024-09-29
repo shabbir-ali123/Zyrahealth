@@ -18,7 +18,7 @@ function DeliveryForm() {
   };
 
   return (
-    <div className="">
+    <div className="poppin">
       <div className="  py-10 max-md:px-6 px-8">
         <div className="max-w-screen-sm mx-auto">
           <h2 className="text-center text-2xl font-semibold text-[#DBDBE0] mb-6">

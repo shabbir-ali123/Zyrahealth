@@ -7,7 +7,7 @@ RelatedArticleData;
 function RelatedArticleContainer() {
   return (
     <>
-      <div className="bg-[#F7F7F7]">
+      <div className="bg-[#F7F7F7] poppin">
         <div className=" mx-4 lg:mx-20  py-20 mt-20	">
           <div className="text-center">
             <h2 className="font-semibold text-4xl">Related articles</h2>
