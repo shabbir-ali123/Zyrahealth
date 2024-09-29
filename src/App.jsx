@@ -7,7 +7,6 @@ import CheckYourEmail from "./components/login/CheckEmail";
 import NewPassword from "./components/login/NewPassword";
 import GuidingHeroSection from "./pages/GuidingSection";
 import GuidingPlatform from "./components/guidingPageCompo/GuidingPlatform";
-import Getintouch from "./components/getintouch/Getintouch";
 import GuidingReview from "./components/guidingPageCompo/GuidingReview";
 import HelpCardsContainer from "./pages/HelpContainer";
 import DeliveryForm from "./components/helpsection/DeliveryForm";
@@ -17,6 +16,9 @@ import FamilyPartnerHelp from "./pages/FamilyHelpContainer";
 import ResourcesPage from "./pages/ResourcesPage";
 import PartnerHelpContainer from "./pages/PartnerHelpContainer";
 import HelpCard from "./components/helpsection/Help";
+import Getintouchpage from "./pages/Getintouchpage";
+import BusinessSlider from "./components/business/BusinessSlider";
+import BusinessContainer from "./components/business/BusinessContainer";
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
           <Route path="/guiding-hero" element={<GuidingHeroSection />} />
           <Route path="/guiding-platform" element={<GuidingPlatform />} />
           <Route path="/guiding-review" element={<GuidingReview />} />
-          <Route path="/get-in-touch" element={<Getintouch />} />
+          <Route path="/get-in-touch" element={<Getintouchpage />} />
           <Route path="/help-section" element={<HelpCardsContainer />} />
           <Route path="/delivery-form" element={<DeliveryForm />} />
           <Route path="/help-center" element={<HelpCardsGrid />} />
@@ -49,6 +51,8 @@ function App() {
         <Route path="/partner-help-center" element={<PartnerHelpContainer />} />
         <Route path="/recources-page" element={<ResourcesPage />} />
         <Route path="/help-sections" element={<HelpCard />} />
+        <Route path="/business-slider" element={<BusinessSlider />} />
+        <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>
   );
