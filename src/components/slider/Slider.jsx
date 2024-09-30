@@ -14,7 +14,7 @@ const Slider = () => {
     const nextRef = useRef(null);
   return (
 
-    <div className="relative w-[90%]">
+    <div className="relative w-full sm:w-[90%]">
     {/* Swiper */}
     <Swiper
       cssMode={true}
@@ -30,13 +30,10 @@ const Slider = () => {
       mousewheel={true}
       keyboard={true}
       modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-      className="w-[80%] h-[60vh] my-6"
+      className="w-[80%] h-auto lg:h-[60vh] mb-6 mt-3"
     >
       {/* First Slide */}
       <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-        <h1 className="text-4xl font-semibold">
-          Trusted By Families Like Yours
-        </h1>
         <img src={person} alt="person" />
         <h2 className="text-lg font-semibold text-wrap w-[63%]">
           We found the perfect caregiver for mom. She's kind and
@@ -52,9 +49,6 @@ const Slider = () => {
 
       {/* Second Slide */}
       <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-        <h1 className="text-4xl font-semibold">
-          Trusted By Families Like Yours
-        </h1>
         <img src={person} alt="person" />
         <h2 className="text-lg font-semibold text-wrap w-[63%]">
           We found the perfect caregiver for mom. She's kind and
@@ -70,9 +64,6 @@ const Slider = () => {
 
       {/* Third Slide */}
       <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-        <h1 className="text-4xl font-semibold">
-          Trusted By Families Like Yours
-        </h1>
         <img src={person} alt="person" />
         <h2 className="text-lg font-semibold text-wrap w-[63%]">
           We found the perfect caregiver for mom. She's kind and
