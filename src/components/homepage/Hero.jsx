@@ -6,10 +6,10 @@ function HomeSection() {
       <div className="container mx-auto text-center">
         {/* Left Image and Text */}
         <div
-          className="flex items-center pb-6
+          className="flex items-center pb-6 max-md:flex-col max-md:gap-10
         "
         >
-          <div className=" flex flex-col items-center gap-3.5 mt-36	">
+          <div className=" flex flex-col items-center gap-3.5 mt-36 max-md:mt-6	">
             <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl 		">
               <p className="font-semibold">Kelly, Age 74</p>
               <p>Needs companion care</p>
@@ -18,10 +18,10 @@ function HomeSection() {
           </div>
           <div>
             {/* Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] poppin">
+            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] poppin md:text-4xl">
               Comfort. Choice. Home
             </h1>
-            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg	">
+            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg md:text-xl	">
               Find trusted vendors to help with{" "}
               <span className="text-[#109088] font-semibold animate-fadeIn">
                 Personal Care ` `
@@ -36,7 +36,7 @@ function HomeSection() {
           </div>
 
           {/* Content with Images */}
-          <div className="flex justify-center items-end  space-x-4 mt-36">
+          <div className="flex justify-center items-end  space-x-4 mt-36 max-md:mt-6">
             {/* Right Image and Text */}
             <div className="flex flex-col items-end">
               <img src="images/HeroImage.png" alt="" srcset="" />
@@ -45,7 +45,7 @@ function HomeSection() {
         </div>
 
         {/* Form Section */}
-        <div className="px-10	py-6	 w-10/12	   mx-auto bg-white p-6 rounded-3xl	 shadow-md absolute	bottom-[-15%] mb-8 left-[8%]">
+        <div className="px-10	py-6	 w-10/12	   mx-auto bg-white p-6 rounded-3xl	 shadow-md absolute	bottom-[-15%] mb-8 left-[8%] max-sm:hidden">
           <div>
             <div className="grid grid-cols-4 gap-4 items-end	justify-items-end">
               {/* Left Section: Heading and Description */}

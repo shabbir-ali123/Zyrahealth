@@ -20,6 +20,8 @@ import HelpCard from "./components/helpsection/Help";
 import ArticleContainer from "./components/article/ArticleTextContainer";
 import ScrollToTop from "./components/scroll/ScrollTop";
 import Getintouchpage from "./pages/Getintouchpage";
+
+import BecomePartner from "./pages/BecomePartner";
 import BusinessContainer from "./components/business/BusinessContainer";
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
           <Route path="/delivery-form" element={<DeliveryForm />} />
           <Route path="/help-center" element={<HelpCardsGrid />} />
           <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
+          <Route path="/become-partner" element={<BecomePartner />} />
+
           <Route
             path="/partner-help-center"
             element={<PartnerHelpContainer />}

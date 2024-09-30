@@ -1,12 +1,12 @@
-import React from 'react'
-import HomeCard from '../homecard/HomeCard';
-import cardsData from '../../data/CardsData';
-import PowerFulCard from '../power/PowerFulCard';
-import PowerData from '../../data/PowerData';
-import FindCare from '../findcare/FindCare';
-import FindCareData from '../../data/FindCareData';
-import Slider from '../slider/Slider';
-
+import React from "react";
+import HomeCard from "../homecard/HomeCard";
+import cardsData from "../../data/CardsData";
+import PowerFulCard from "../power/PowerFulCard";
+import PowerData from "../../data/PowerData";
+import FindCare from "../findcare/FindCare";
+import FindCareData from "../../data/FindCareData";
+import Slider from "../slider/Slider";
+import BusinessSlider from "./BusinessSlider";
 
 const BusinessContainer = ({ title, description, Icon }) => {
   return (
@@ -78,32 +78,37 @@ const BusinessContainer = ({ title, description, Icon }) => {
                 </div>
             </div>
         </div>
-        </section>
-        {/* section 4 */}
-        <section>
-        <div className='bg-[#F7F7F7]'>
-        <div className='mx-20 py-[80px]'>
-                <div className='text-center '>
-                    <h2 className='font-semibold text-4xl'>Simple steps. Lasting impact</h2>
-                    <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
-                    <p className='mt-5 text-xl font-medium text-[#5E5E6F]'>Take your business to new heights with ease</p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-10 mt-[50px]">
-
-                    {FindCareData.map((card) => (
-                        <FindCare
-                            key={card.id}
-                            title={card.title}
-                            description={card.description}
-                            count={card.count}
-                            bgColor={card.bgColor}
-                        />
-                    ))}
-                </div>
-                <div className='mt-[50px] flex justify-center'>
-                <button className='text-white bg-black px-[30px] py-[9px] rounded-full'>Get Started Now</button>
-                </div>
+      </section>
+      {/* section 4 */}
+      <section>
+        <div className="bg-[#F7F7F7]">
+          <div className="mx-20 py-[80px]">
+            <div className="text-center ">
+              <h2 className="font-semibold text-4xl">
+                Simple steps. Lasting impact
+              </h2>
+              <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
+              <p className="mt-5 text-xl font-medium text-[#5E5E6F]">
+                Take your business to new heights with ease
+              </p>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-10 mt-[50px]">
+              {FindCareData.map((card) => (
+                <FindCare
+                  key={card.id}
+                  title={card.title}
+                  description={card.description}
+                  count={card.count}
+                  bgColor={card.bgColor}
+                />
+              ))}
+            </div>
+            <div className="mt-[50px] flex justify-center">
+              <button className="text-white bg-black px-[30px] py-[9px] rounded-full">
+                Get Started Now
+              </button>
+            </div>
+          </div>
         </div>
         </section>
         {/* section 5 */}
@@ -116,7 +121,7 @@ const BusinessContainer = ({ title, description, Icon }) => {
             </div>
         </section>
     </>
-  )
-}
+  );
+};
 
-export default BusinessContainer
+export default BusinessContainer;

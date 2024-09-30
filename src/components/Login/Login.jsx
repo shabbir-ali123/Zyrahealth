@@ -10,7 +10,7 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center w-full">
+    <div className="min-h-screen flex items-center justify-center w-full poppin">
       <div className="px-8 py-6 max-w-lg">
         <h1 className="text-3xl font-semibold text-center mb-2">
           We're happy to see you again
@@ -53,9 +53,8 @@ function Login() {
             <div className="flex items-center">
               <input
                 type="checkbox"
-                id="remember"
-                className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none"
-                defaultChecked
+                id=""
+                className="!h-5 !w-5 !rounded-md	  border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:outline-none"
               />
               <label
                 htmlFor="remember"
