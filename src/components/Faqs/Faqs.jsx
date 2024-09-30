@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DropdownIcon from "../../assets/icons/FaqsDropDown/DropdownIcon";
+import DropdownIcon from "../../assets/icons/faqsDropDown/DropdownIcon";
 
 function FaqsCard({ title, description }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ function FaqsCard({ title, description }) {
   };
 
   return (
-    <div className="transition-all duration-200 bg-white border border-[#B6B9CE]  cursor-pointer hover:bg-gray-50 rounded-xl	">
+    <div className="transition-all duration-200 bg-white border border-[#B6B9CE]  cursor-pointer hover:bg-gray-50 rounded-xl poppin	">
       <button
         type="button"
         className="flex items-center justify-between w-full p-3.5 sm:p-6"

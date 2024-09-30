@@ -12,7 +12,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 function Header({ styles = "" }) {
   return (
-    <Disclosure as="nav" className=" shadow">
+    <Disclosure as="nav" className=" shadow poppin">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between">
           <div className="flex">
@@ -21,9 +21,12 @@ function Header({ styles = "" }) {
             </div>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8 text-lg font-semibold text-[#5E5E6F]">
-            <a href="#" className="inline-flex items-center  px-1 pt-1  	">
+            <Link
+              to="/resources"
+              className="inline-flex items-center border-b-2 border-transparent px-1 pt-1    hover:border-gray-300 hover:text-gray-700"
+            >
               Find help
-            </a>
+            </Link>
 
             <Link
               to="/resources"

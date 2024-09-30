@@ -11,7 +11,7 @@ function ResetPassword() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center w-full">
+    <div className="min-h-screen flex items-center justify-center w-full poppin">
       <div className="px-8 py-6 max-w-lg">
         <h1 className="text-3xl font-semibold text-center mb-2">
           Let's help reset your password
