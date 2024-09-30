@@ -12,34 +12,34 @@ const BusinessContainer = ({ title, description, Icon }) => {
   return (
     <>
      <section className=' flex justify-center flex-col'>
-            <div className='flex flex-col items-center'>
-                <h1 className='sm:text-4xl text-2xl font-semibold text-center'>Seize the opportunity</h1>
-                <div className='mt-3 h-[2px] w-24 border border-black'></div>
+            <div className='flex flex-col items-center pt-[80px]'>
+                <h1 className='text-4xl font-semibold text-center'>Seize the opportunity</h1>
+                <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-3"></div>
                 <p className='pt-4 text-xl text-[#5E5E6F] text-center'>Transform homes. Transform lives</p>
             </div>
             <div className='grid gap-10 sm:gap-0 sm:grid-cols-3 justify-center mt-12 justify-items-center'>
-                <div className='flex items-center flex-col w-[60%]'>
-                    <h1 className='text-3xl font-semibold'>77M</h1>
+                <div className='flex items-center flex-col gap-3 w-[60%]'>
+                    <h1 className='text-6xl font-semibold'>77M</h1>
                     <p className='text-xl text-center text-[#5E5E6F]'>Number of seniors by 2034</p>
                 </div>
-                <div className='flex items-center flex-col w-[60%]'>
-                    <h1 className='text-3xl font-semibold'>90%</h1>
+                <div className='flex items-center flex-col gap-3 w-[60%]'>
+                    <h1 className='text-6xl font-semibold'>90%</h1>
                     <p className='text-xl text-center text-[#5E5E6F]'>Seniors showing desire to age in their homes</p>
                 </div>
-                <div className='flex items-center flex-col w-[60%]'>
-                    <h1 className='text-3xl font-semibold'>$460B</h1>
+                <div className='flex items-center flex-col gap-3 w-[60%]'>
+                    <h1 className='text-6xl font-semibold'>$460B</h1>
                     <p className='text-xl text-center text-[#5E5E6F]'>Estimated to be worth of total home care market</p>
                 </div>
             </div>
         </section>
         {/* section 2 */}
         <section className='bg-[#F7F7F7]'>
-        <div className="mx-20 py-20 mt-20	">
+        <div className="sm:mx-20 py-20 mt-20	">
         <div className="text-center">
-          <h2 className="font-semibold text-4xl">Right in the home you love</h2>
+          <h2 className="font-semibold text-4xl">Expand reach. Increase revenue</h2>
           <div className="mx-auto w-[100px] h-[3px] bg-[#1C1C1C] mt-2"></div>
           <p className="font-medium text-xl text-[#575757] py-4">
-            Get professional, vetted help delivered to your home
+            Be part of solution millions of families searching for
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[50px]">
@@ -108,7 +108,10 @@ const BusinessContainer = ({ title, description, Icon }) => {
         </section>
         {/* section 5 */}
         <section>
-            <div className='mx-20 py-[80px]'>
+            <div className='sm:ml-20  py-[80px]'>
+            <h1 className="text-4xl font-semibold text-center mb-[30px]">
+          Trusted By Families Like Yours
+        </h1>
                 <Slider />
             </div>
         </section>

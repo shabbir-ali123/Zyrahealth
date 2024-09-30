@@ -20,6 +20,7 @@ import HelpCard from "./components/helpsection/Help";
 import ArticleContainer from "./components/article/ArticleTextContainer";
 import ScrollToTop from "./components/scroll/ScrollTop";
 import Getintouchpage from "./pages/Getintouchpage";
+import BusinessContainer from "./components/business/BusinessContainer";
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
-        <Route path="/business-slider" element={<BusinessSlider />} />
+        {/* <Route path="/business-slider" element={<BusinessSlider />} /> */}
         <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>
