@@ -93,7 +93,7 @@ const HeroSlider = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          {/* coustom buttons */}
+          {/* buttons */}
           <div
             ref={prevRef}
             className="swiper-button-back absolute left-2 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer p-3 border border-black rounded-full flex items-center justify-center"

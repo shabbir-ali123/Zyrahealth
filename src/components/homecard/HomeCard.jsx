@@ -26,7 +26,6 @@ function HomeCard({ title, description, Icon, bgColor }) {
               />
             </svg>
           </div>
-
           <p className="text-gray-600">{description}</p>
         </div>
       </div>

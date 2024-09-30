@@ -7,7 +7,6 @@ import CheckYourEmail from "./components/login/CheckEmail";
 import NewPassword from "./components/login/NewPassword";
 import GuidingHeroSection from "./pages/GuidingSection";
 import GuidingPlatform from "./components/guidingPageCompo/GuidingPlatform";
-import Getintouch from "./components/getintouch/Getintouch";
 import GuidingReview from "./components/guidingPageCompo/GuidingReview";
 import HelpCardsContainer from "./pages/HelpContainer";
 import DeliveryForm from "./components/helpsection/DeliveryForm";
@@ -54,6 +53,8 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
+        <Route path="/business-slider" element={<BusinessSlider />} />
+        <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>
   );
