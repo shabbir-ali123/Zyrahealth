@@ -21,6 +21,8 @@ import ArticleContainer from "./components/article/ArticleTextContainer";
 import ScrollToTop from "./components/scroll/ScrollTop";
 import Getintouchpage from "./pages/Getintouchpage";
 
+import BecomePartner from "./pages/BecomePartner";
+
 function App() {
   return (
     <Router>
@@ -39,6 +41,8 @@ function App() {
           <Route path="/delivery-form" element={<DeliveryForm />} />
           <Route path="/help-center" element={<HelpCardsGrid />} />
           <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
+          <Route path="/become-partner" element={<BecomePartner />} />
+
           <Route
             path="/partner-help-center"
             element={<PartnerHelpContainer />}
@@ -53,8 +57,6 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
-        <Route path="/business-slider" element={<BusinessSlider />} />
-        <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>
   );
