@@ -60,6 +60,7 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
+        {/* <Route path="/business-slider" element={<BusinessSlider />} /> */}
         <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>

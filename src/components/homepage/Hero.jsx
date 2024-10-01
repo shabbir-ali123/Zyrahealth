@@ -21,7 +21,7 @@ function HomeSection() {
             <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] font-poppins md:text-4xl">
               Comfort. Choice. Home
             </h1>
-            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg md:text-xl	">
+            <p className="text-2xl	font-medium	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg max-md:text-xl	">
               Find trusted vendors to help with{" "}
               <span className="text-[#109088] font-semibold animate-fadeIn">
                 Personal Care|
@@ -30,7 +30,7 @@ function HomeSection() {
             </p>
 
             {/* Call to Action Button */}
-            <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-semibold  mb-10">
+            <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-medium  mb-10">
               Find the help you need
             </button>
           </div>
