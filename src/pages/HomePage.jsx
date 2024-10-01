@@ -9,6 +9,7 @@ import HeroWrapper from "../components/homepage/HeroWrapper";
 import FaqsContainer from "../components/faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
 import PlacingHelpSection from "../components/placeing/placeing";
+import PopularContainer from "../components/popularserviceCard/PopularContainer";
 
 function HomePage() {
   return (
@@ -16,6 +17,7 @@ function HomePage() {
       <HomeSection />
       <HeroWrapper />
       <HomeCardsContainer />
+      <PopularContainer/>
       <PowerFUlContainer />
       <FindCareContainer />
       <HeroSlider />

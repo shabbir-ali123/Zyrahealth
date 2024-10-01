@@ -3,3 +3,18 @@
 .poppin {
   font-family: "Poppins", system-ui;
 }
+.custom-slick-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: #109088;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.custom-slick-arrow::before {
+  font-size: 20px;
+  color: white;
+}

@@ -18,13 +18,13 @@ function HomeSection() {
           </div>
           <div>
             {/* Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] poppin md:text-4xl">
+            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] font-poppins md:text-4xl">
               Comfort. Choice. Home
             </h1>
             <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg md:text-xl	">
               Find trusted vendors to help with{" "}
               <span className="text-[#109088] font-semibold animate-fadeIn">
-                Personal Care ` `
+                Personal Care|
               </span>
               to live the best of your days at home.
             </p>

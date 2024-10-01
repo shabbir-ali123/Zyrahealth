@@ -22,6 +22,9 @@ import ScrollToTop from "./components/scroll/ScrollTop";
 import Getintouchpage from "./pages/Getintouchpage";
 
 import BecomePartner from "./pages/BecomePartner";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import BusinessContainer from "./components/business/BusinessContainer";
 
 function App() {
   return (
@@ -57,6 +60,7 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
+        <Route path="/business-container" element={<BusinessContainer />} />
       </Routes>
     </Router>
   );

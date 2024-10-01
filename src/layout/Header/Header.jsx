@@ -12,11 +12,13 @@ function Header({ styles = "" }) {
     <Disclosure as="nav" className="shadow poppin">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between">
-          <div className="flex">
+       
+         <Link to="/"className="flex">
             <div className="flex flex-shrink-0 items-center">
               <img alt="Your Company" src="images/Logo.png" className="" />
             </div>
-          </div>
+            </Link>
+         
           <div className="hidden sm:ml-6 lg:flex lg:space-x-8 text-lg font-semibold text-[#5E5E6F]">
             <Link
               to="/resources"
