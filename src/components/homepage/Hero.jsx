@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeSection() {
   return (
-    <div className="px-6">
+    <div className="px-2">
       <section className="bg-gradient-to-b from-[#FFFDFD] via-[#FFFDFD] to-[#F7E7E7] py-16 max-sm:py-0 max-sm:pb-16 px-4 relative xl-h-screen	poppin ">
         <div className="container mx-auto text-center">
           {/* Left Image and Text */}
@@ -39,7 +39,7 @@ function HomeSection() {
               </p>
 
               {/* Call to Action Button */}
-              <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-medium  mb-10">
+              <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-medium  mb-10 max-sm:mb-0">
                 Find the help you need
               </button>
             </div>
