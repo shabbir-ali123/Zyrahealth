@@ -12,14 +12,16 @@ function Header({ styles = "" }) {
     <Disclosure as="nav" className="border-b poppin">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between">
-          <div className="flex">
+          <Link to="/" className="flex">
             <div className="flex flex-shrink-0 items-center">
               <img alt="Your Company" src="images/Logo.png" className="" />
             </div>
-          </div>
+          </Link>
+
+          <div className="hidden sm:ml-6 lg:flex lg:space-x-8 text-lg font-semibold text-[#5E5E6F]"></div>
           <div className="hidden sm:ml-6 lg:flex lg:space-x-8 text-[17px] font-semibold text-[#5E5E6F]">
             <Link
-              to="/resources"
+              to="/help-center"
               className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 hover:border-gray-300 hover:text-gray-700"
             >
               Find help
