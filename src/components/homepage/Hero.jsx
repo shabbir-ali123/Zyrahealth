@@ -12,16 +12,16 @@ function HomeSection() {
           <div className=" flex flex-col items-center gap-3.5 mt-36 max-md:mt-6	">
             <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl 		">
               <p className="font-semibold">Kelly, Age 74</p>
-              <p>Needs companion care</p>
+              <p className="text-[13px]">Needs companion care</p>
             </div>
             <img src="images/HeroLeft.png" alt="" srcset="" />
           </div>
           <div>
             {/* Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-5 max-sm:text-[30px] poppin md:text-4xl">
+            <h1 className="text-[64px] font-semibold text-gray-800 mb-5 max-sm:text-[30px] poppin max-md:text-4xl">
               Comfort. Choice. Home
             </h1>
-            <p className="text-2xl	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg md:text-xl	">
+            <p className="text-2xl	font-medium	 text-gray-600 mb-10 w-8/12	mx-auto max-sm:text-lg max-md:text-xl	">
               Find trusted vendors to help with{" "}
               <span className="text-[#109088] font-semibold animate-fadeIn">
                 Personal Care ` `
@@ -30,7 +30,7 @@ function HomeSection() {
             </p>
 
             {/* Call to Action Button */}
-            <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-semibold  mb-10">
+            <button className="bg-[#1C1C1C] text-white py-3.5	 px-9	 rounded-full font-medium  mb-10">
               Find the help you need
             </button>
           </div>
@@ -62,15 +62,15 @@ function HomeSection() {
 
               {/* First Dropdown Label */}
               <div className="flex flex-col gap-2 w-full	">
-                <p className="text-gray-600 text-left font-medium		">
+                <p className=" text-left font-semibold	text-[17px]	">
                   Who needs help?
                 </p>
                 <select
-                  className="border border-gray-300 rounded-full px-4 py-3 text-gray-600 text-sm"
+                  className="border border-gray-300 rounded-lg px-4 py-3 text-gray-600 text-sm"
                   defaultValue=""
                 >
                   <option value="" disabled>
-                    Make a selection
+                    Myself
                   </option>
                   <option value="self">Self</option>
                   <option value="family">Family</option>
@@ -80,15 +80,15 @@ function HomeSection() {
 
               {/* Second Dropdown Label */}
               <div className="flex flex-col gap-2 w-full	">
-                <p className="text-gray-600 text-left font-medium		">
+                <p className=" text-left font-semibold	text-[17px]	">
                   What kind of help do you need?
                 </p>
                 <select
-                  className="border border-gray-300 rounded-full px-4 py-3	 text-gray-600 text-sm"
+                  className="border border-gray-300 rounded-lg px-4 py-3	 text-gray-600 text-sm"
                   defaultValue=""
                 >
                   <option value="" disabled>
-                    Make a selection
+                    Home care
                   </option>
                   <option value="self">Self</option>
                   <option value="family">Family</option>
