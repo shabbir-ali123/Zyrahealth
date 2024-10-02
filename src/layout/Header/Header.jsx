@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Header({ styles = "" }) {
   return (
-    <Disclosure as="nav" className="shadow poppin">
+    <Disclosure as="nav" className="border-b poppin">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between">
           <div className="flex">
@@ -17,7 +17,7 @@ function Header({ styles = "" }) {
               <img alt="Your Company" src="images/Logo.png" className="" />
             </div>
           </div>
-          <div className="hidden sm:ml-6 lg:flex lg:space-x-8 text-lg font-semibold text-[#5E5E6F]">
+          <div className="hidden sm:ml-6 lg:flex lg:space-x-8 text-[17px] font-semibold text-[#5E5E6F]">
             <Link
               to="/resources"
               className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 hover:border-gray-300 hover:text-gray-700"
@@ -41,7 +41,7 @@ function Header({ styles = "" }) {
           <div className="hidden sm:ml-6 lg:flex lg:items-center">
             <Link
               to="/login"
-              className="border-2 border-black text-black font-semibold hover:text-white hover:bg-gray-600 px-7 py-2 rounded-full transition"
+              className="border-2 border-black text-black font-medium hover:text-white hover:bg-gray-600 px-7 py-2 rounded-full transition"
             >
               Login
             </Link>
@@ -63,7 +63,7 @@ function Header({ styles = "" }) {
         </div>
       </div>
 
-      <DisclosurePanel className="lg:hidden pb-4">
+      <DisclosurePanel className="lg:hidden pb-4 ">
         <div className="space-y-1 pb-3 pt-2">
           <DisclosureButton className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
             <Link to="/resources">Find help</Link>

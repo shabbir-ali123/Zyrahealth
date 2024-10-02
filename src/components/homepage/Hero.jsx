@@ -12,7 +12,7 @@ function HomeSection() {
           <div className=" flex flex-col items-center gap-3.5 mt-36 max-md:mt-6	">
             <div className="text-center text-sm text-gray-600 bg-[#FDE7FF] py-2.5	px-2.5 rounded-2xl 		">
               <p className="font-semibold">Kelly, Age 74</p>
-              <p>Needs companion care</p>
+              <p className="text-[13px]">Needs companion care</p>
             </div>
             <img src="images/HeroLeft.png" alt="" srcset="" />
           </div>
@@ -62,15 +62,15 @@ function HomeSection() {
 
               {/* First Dropdown Label */}
               <div className="flex flex-col gap-2 w-full	">
-                <p className="text-gray-600 text-left font-medium		">
+                <p className=" text-left font-semibold	text-[17px]	">
                   Who needs help?
                 </p>
                 <select
-                  className="border border-gray-300 rounded-full px-4 py-3 text-gray-600 text-sm"
+                  className="border border-gray-300 rounded-lg px-4 py-3 text-gray-600 text-sm"
                   defaultValue=""
                 >
                   <option value="" disabled>
-                    Make a selection
+                    Myself
                   </option>
                   <option value="self">Self</option>
                   <option value="family">Family</option>
@@ -80,15 +80,15 @@ function HomeSection() {
 
               {/* Second Dropdown Label */}
               <div className="flex flex-col gap-2 w-full	">
-                <p className="text-gray-600 text-left font-medium		">
+                <p className=" text-left font-semibold	text-[17px]	">
                   What kind of help do you need?
                 </p>
                 <select
-                  className="border border-gray-300 rounded-full px-4 py-3	 text-gray-600 text-sm"
+                  className="border border-gray-300 rounded-lg px-4 py-3	 text-gray-600 text-sm"
                   defaultValue=""
                 >
                   <option value="" disabled>
-                    Make a selection
+                    Home care
                   </option>
                   <option value="self">Self</option>
                   <option value="family">Family</option>
