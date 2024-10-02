@@ -23,6 +23,7 @@ import Getintouchpage from "./pages/Getintouchpage";
 
 import BecomePartner from "./pages/BecomePartner";
 import BusinessContainer from "./components/business/BusinessContainer";
+import BusinessResults from "./components/businessResults/BusinessResults";
 
 function App() {
   return (
@@ -59,7 +60,8 @@ function App() {
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
         {/* <Route path="/business-slider" element={<BusinessSlider />} /> */}
-        <Route path="/business-container" element={<BusinessContainer />} />
+        {/* <Route path="/business-container" element={<BusinessContainer />} /> */}
+        <Route path ="business-result" element={<BusinessResults />}/>
       </Routes>
     </Router>
   );

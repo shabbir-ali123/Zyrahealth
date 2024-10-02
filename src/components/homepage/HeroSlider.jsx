@@ -15,13 +15,20 @@ const HeroSlider = () => {
 
   return (
     <>
-      <section className="w-full flex items-center justify-center bg-[#F7F7F7] poppin">
-        <div className="flex flex-col gap-36 pl-3 h-full">
+      <section className="w-full flex items-center justify-between bg-[#F7F7F7] poppin">
+        <div className="hidden sm:flex flex-col gap-64 pl-3">
           <img className="w-[40px]" src="images/curveOne.png" />
           <img className="w-[40px]" src="images/curveTwo.png" />
           <img className="w-[40px]" src="images/curveThree.png" />
         </div>
-        <div className="relative w-[90%]">
+        <div className="relative w-[90%] py-[80px]">
+        <div className="flex items-center flex-col gap-3">
+        <h1 className="text-4xl font-semibold text-center">
+                Trusted By Families Like Yours
+        </h1>
+        <div className="w-[100px] border border-black"></div>
+
+        </div>
           {/* Swiper */}
           <Swiper
             cssMode={true}
@@ -37,13 +44,10 @@ const HeroSlider = () => {
             mousewheel={true}
             keyboard={true}
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-            className="w-[80%] h-[60vh] my-6"
+            className="sm:w-[80%] h-[65vh] my-6"
           >
             {/* First Slide */}
             <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-              <h1 className="text-4xl font-semibold">
-                Trusted By Families Like Yours
-              </h1>
               <img src={person} alt="person" />
               <h2 className="text-lg font-semibold text-wrap w-[63%]">
                 We found the perfect caregiver for mom. She's kind and
@@ -51,17 +55,11 @@ const HeroSlider = () => {
                 needed was simple, and now she's happy and well taken care of.
                 It feels wonderful to see her content.
               </h2>
-              <div className="flex flex-col gap-3">
-                <div className="border border-black"></div>
                 <p className="text-[#5E5E6F]">Sara R. Charlotte, NC</p>
-              </div>
             </SwiperSlide>
 
             {/* Second Slide */}
             <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-              <h1 className="text-4xl font-semibold">
-                Trusted By Families Like Yours
-              </h1>
               <img src={person} alt="person" />
               <h2 className="text-lg font-semibold text-wrap w-[63%]">
                 We found the perfect caregiver for mom. She's kind and
@@ -69,17 +67,11 @@ const HeroSlider = () => {
                 needed was simple, and now she's happy and well taken care of.
                 It feels wonderful to see her content.
               </h2>
-              <div className="flex flex-col gap-3">
-                <div className="border border-black"></div>
                 <p className="text-[#5E5E6F]">Sara R. Charlotte, NC</p>
-              </div>
             </SwiperSlide>
 
             {/* Third Slide */}
             <SwiperSlide className="text-center flex flex-col items-center justify-center gap-4">
-              <h1 className="text-4xl font-semibold">
-                Trusted By Families Like Yours
-              </h1>
               <img src={person} alt="person" />
               <h2 className="text-lg font-semibold text-wrap w-[63%]">
                 We found the perfect caregiver for mom. She's kind and
@@ -87,10 +79,7 @@ const HeroSlider = () => {
                 needed was simple, and now she's happy and well taken care of.
                 It feels wonderful to see her content.
               </h2>
-              <div className="flex flex-col gap-3">
-                <div className="border border-black"></div>
                 <p className="text-[#5E5E6F]">Sara R. Charlotte, NC</p>
-              </div>
             </SwiperSlide>
           </Swiper>
           {/* buttons */}
@@ -108,7 +97,7 @@ const HeroSlider = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-36 pr-3 h-full">
+        <div className="hidden sm:flex flex-col gap-64 pr-3">
           <img className="w-[40px]" src="images/curveFour.png" />
           <img className="w-[40px]" src="images/curveTwo.png" />
           <img className="w-[40px]" src="images/curveFive.png" />

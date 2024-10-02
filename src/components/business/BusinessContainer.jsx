@@ -6,7 +6,6 @@ import PowerData from "../../data/PowerData";
 import FindCare from "../findcare/FindCare";
 import FindCareData from "../../data/FindCareData";
 import Slider from "../slider/Slider";
-import BusinessSlider from "./BusinessSlider";
 
 const BusinessContainer = ({ title, description, Icon }) => {
   return (
@@ -112,14 +111,14 @@ const BusinessContainer = ({ title, description, Icon }) => {
         </div>
         </section>
         {/* section 5 */}
-        <section>
+        {/* <section>
             <div className='sm:ml-20  py-[80px]'>
             <h1 className="text-4xl font-semibold text-center mb-[30px]">
           Trusted By Families Like Yours
-        </h1>
+            </h1>
                 <Slider />
             </div>
-        </section>
+        </section> */}
     </>
   );
 };
