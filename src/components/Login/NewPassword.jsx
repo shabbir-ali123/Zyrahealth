@@ -4,10 +4,10 @@ function NewPassword() {
   return (
     <div className="min-h-screen flex items-center justify-center w-full poppin ">
       <div className="   px-8 py-6 max-w-lg	">
-        <h1 className="text-3xl	 font-semibold text-center mb-2 ">
+        <h1 className="text-[32px]	 font-semibold text-center mb-2 ">
           Let's set a new password for you
         </h1>
-        <p className="text-center text-lg	text-[#5E5E6F] font-medium mb-10">
+        <p className="text-center text-[17px]	text-[#5E5E6F] font-medium mb-10">
           Please enter new password
         </p>
         <form action="#">

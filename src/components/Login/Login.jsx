@@ -12,10 +12,10 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center w-full poppin">
       <div className="px-8 py-6 max-w-lg">
-        <h1 className="text-3xl font-semibold text-center mb-2">
+        <h1 className="text-[32px] font-semibold text-center mb-2">
           We're happy to see you again
         </h1>
-        <p className="text-center text-lg text-[#5E5E6F] font-medium mb-10">
+        <p className="text-center text-[17px] text-[#5E5E6F] font-medium mb-10">
           Please enter your details to login
         </p>
         <form>
@@ -29,7 +29,7 @@ function Login() {
             <input
               type="email"
               id="email"
-              className="shadow-sm text-sm rounded-full w-full px-4 py-3.5 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+              className="shadow-sm text-sm rounded-[10px] w-full px-4 py-3.5 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
               placeholder="Enter your email"
               required
             />
@@ -44,7 +44,7 @@ function Login() {
             <input
               type="password"
               id="password"
-              className="shadow-sm text-sm rounded-full w-full px-4 py-3.5 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+              className="shadow-sm text-sm rounded-[10px] w-full px-4 py-3.5 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
               placeholder="Enter your password"
               required
             />
