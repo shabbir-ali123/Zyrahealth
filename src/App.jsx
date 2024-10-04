@@ -26,6 +26,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BusinessContainer from "./components/business/BusinessContainer";
 import BusinessResults from "./components/businessResults/BusinessResults";
+import GrowYourBusiness from "./pages/GrowYourBusiness";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/help-center" element={<HelpCardsGrid />} />
           <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
           <Route path="/become-partner" element={<BecomePartner />} />
+          <Route path="/grow-your-business" element={<GrowYourBusiness />} />
 
           <Route
             path="/partner-help-center"
@@ -61,9 +63,7 @@ function App() {
 
         {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
-        {/* <Route path="/business-slider" element={<BusinessSlider />} /> */}
-        {/* <Route path="/business-container" element={<BusinessContainer />} /> */}
-        <Route path ="business-result" element={<BusinessResults />}/>
+        <Route path="business-result" element={<BusinessResults />} />
       </Routes>
     </Router>
   );
