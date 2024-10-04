@@ -72,13 +72,13 @@ const BusinessSlider = () => {
       {/* buttons */}
       <div
         ref={prevRef}
-        className="swiper-button-back absolute left-[50px] top-[98%] transform -translate-y-1/2 z-10 cursor-pointer p-3 border border-black rounded-full flex items-center justify-center"
+        className=" swiper-button-back absolute left-[50px] top-[98%] transform -translate-y-1/2 z-10 cursor-pointer p-3 border border-black rounded-full flex items-center justify-center"
       >
         <IoArrowBack size={24} />
       </div>
       <div
         ref={nextRef}
-       className="swiper-button-back absolute right-[50px] top-[98%] transform -translate-y-1/2 z-10 cursor-pointer p-3 border border-black rounded-full flex items-center justify-center"
+        className=" swiper-button-back absolute right-[50px] top-[98%] transform -translate-y-1/2 z-10 cursor-pointer p-3 border border-black rounded-full flex items-center justify-center"
       >
         <IoArrowForward size={24} />
       </div>
