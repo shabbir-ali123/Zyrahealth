@@ -10,10 +10,8 @@ const BusinessResults = () => {
         <h1 className='text-4xl font-semibold text-center'>Trusted by providers, proven by results</h1>
         <div className='w-[100px] border border-black h-[2px]'></div>
         </div>
-        <div className='pt-[53px] sm:pl-[150px]'>
-            <div>
+        <div className='pt-[53px] flex'>
                 <img src={person} alt="" />
-            </div>
             {/* slider */}
             <div className='slider'>
                 <BusinessSlider/>

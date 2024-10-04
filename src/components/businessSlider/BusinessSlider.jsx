@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import person from "/images/person.png";
 
 import "../../assets/css/slider.css";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";
@@ -13,7 +12,7 @@ const BusinessSlider = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <div className="relative w-full sm:w-[90%] h-[65vh]">
+    <div className="relative w-full sm:w-[30%] h-[65vh]">
       {/* Swiper */}
       <Swiper
         cssMode={true}
