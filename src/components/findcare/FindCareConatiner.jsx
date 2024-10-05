@@ -1,4 +1,3 @@
-// src/components/HomeCard.jsx
 import React from "react";
 import FindCare from "./FindCare";
 import FindCareData from "../../data/FindCareData";

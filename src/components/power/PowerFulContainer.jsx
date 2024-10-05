@@ -1,4 +1,3 @@
-// src/components/HomeCard.jsx
 import React from "react";
 import PowerFulCard from "./PowerFulCard";
 import PowerData from "../../data/PowerData";

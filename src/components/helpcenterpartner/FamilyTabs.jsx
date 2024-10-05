@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// Import your icons
 import ChoosingProviders from "../../assets/icons/helpcentericons/Choosingproviders";
 import ServiceDetail from "../../assets/icons/helpcentericons/Servicedetails";
 import BookingServices from "../../assets/icons/helpcentericons/BookingServices";

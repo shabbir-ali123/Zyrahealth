@@ -1,4 +1,3 @@
-// src/components/FaqsContainer.jsx
 import React from "react";
 
 function HelpCenterFaqsContainer({

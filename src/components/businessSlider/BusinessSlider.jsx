@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import person from "/images/person.png";
 
 import "../../assets/css/slider.css";
 import { IoArrowBack, IoArrowForward } from "react-icons/io5";

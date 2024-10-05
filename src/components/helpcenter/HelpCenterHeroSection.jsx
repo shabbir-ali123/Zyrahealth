@@ -1,17 +1,16 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom"; // Import useLocation
+import { Link, useLocation } from "react-router-dom";
 
 function HelpCenterHeroSection({
   changeTheHeading = "Got questions? We've answers",
   changeTheText = "Explore our help center to find the answers you need",
   extraThings,
 }) {
-  const location = useLocation(); // Get the current URL path
+  const location = useLocation();
 
   return (
     <section>
       <div className="relative items-center bg-[#F7F7F7] w-full px-5 py-12 md:px-12 lg:px-16 poppin lg:py-24">
-        {/* Breadcrumb */}
         <div className="flex justify-start w-full px-5 py-2 text-gray-500 text-sm font-medium">
           <Link
             to="/"

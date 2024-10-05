@@ -33,7 +33,6 @@ function PartnerHelpContainer() {
         <div className="mt-10 flex max-sm:flex-col md:items-center gap-4 poppin">
           <Link to="/no-page">
             {" "}
-            {/* Add the desired path for "No" */}
             <button className="rounded-full flex items-center gap-4 bg-transparent border-[#1C1C1C] border-2 px-10 text-base font-medium py-[13px] text-black">
               No
               <CrossIcon />
@@ -42,7 +41,6 @@ function PartnerHelpContainer() {
 
           <Link to="/yes-page">
             {" "}
-            {/* Add the desired path for "Yes" */}
             <button className="rounded-full flex items-center gap-4 bg-black px-10 text-base font-medium py-[13px] text-white border-[#1C1C1C] border-2">
               Yes
               <TickIcon />

@@ -1,4 +1,3 @@
-// src/data/PopularData.js
 import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";
 import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
 import CarIcon from "../assets/icons/homeLove/CarIcon";
@@ -9,8 +8,7 @@ const PopularData = [
   {
     id: 1,
     image: "/images/Popular-1.png",
-    title:
-      "Home Care",
+    title: "Home Care",
     bgColor: "bg-[#BFB5FE]",
     chip: "Featured",
   },
@@ -47,8 +45,7 @@ const PopularData = [
   {
     id: 5,
     image: "/images/Popular-5.png",
-    title:
-      "Home cleaning",
+    title: "Home cleaning",
     description:
       "We found the perfect caregiver for mom. She's kind and incredibly helpful. The process of getting the care my mom needed was simple, and now she's happy and well taken care of. It feels wonderful to see her content.",
     Icon: WellNess,
@@ -65,7 +62,6 @@ const PopularData = [
     bgColor: "bg-[#AADCF2]",
     chip: "Featured",
   },
-
 ];
 
 export default PopularData;

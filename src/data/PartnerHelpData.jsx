@@ -1,10 +1,3 @@
-// src/data/FamilyHelpData.js
-import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";
-import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
-import CarIcon from "../assets/icons/homeLove/CarIcon";
-import MovingIcon from "../assets/icons/homeLove/MovingIcon";
-import WellNess from "../assets/icons/homeLove/WellNess";
-
 const PartnerHelpData = [
   {
     id: 1,
