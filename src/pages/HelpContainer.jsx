@@ -29,7 +29,7 @@ function HelpCardsContainer() {
               <MessageIcon />
             </div>
 
-            {/* Tooltip that appears on hover */}
+            {/* Tooltip */}
             <div className="absolute hidden right-[0px] top-[16px] group-hover:block bg-gray-50 border border-gray-300 rounded-lg p-4 w-80 text-gray-600 mt-5">
               <p>Get professional, vetted help delivered to your home</p>
               <div className="absolute top-[1px] right-[11px] transform translate-x-1 -translate-y-3 w-5 h-5 bg-gray-50 border-t border-l border-gray-300 rotate-45"></div>
@@ -54,7 +54,6 @@ function HelpCardsContainer() {
             </span>
           </button>
 
-          {/* Dropdown Options */}
           {isOpen && (
             <ul className="absolute w-full border border-gray-300 rounded-lg mt-2 bg-white z-10 poppin">
               <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
@@ -75,7 +74,6 @@ function HelpCardsContainer() {
             What kind of help do you need?
           </h2>
 
-          {/* Rendering Help Cards */}
           <div className="mt-8 space-y-4">
             {HelpCardsData.map((card) => (
               <HelpCard

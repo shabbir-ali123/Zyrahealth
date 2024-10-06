@@ -1,5 +1,3 @@
-// src/data/helpCardsData.js
-
 import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
 import CarIcon from "../assets/icons/homeLove/CarIcon";
 import MovingIcon from "../assets/icons/homeLove/MovingIcon";

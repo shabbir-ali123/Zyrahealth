@@ -1,7 +1,6 @@
 import React from "react";
 import PhoneIcon from "../../assets/icons/contacticons/PhoneIcon";
-import Personicon from "../../assets/icons/contacticons/Personicon";
-import Dollericon from "../../assets/icons/contacticons/Dollericon";
+
 import "../../assets/css/input.css";
 import { useState } from "react";
 import Clockicon from "../../assets/icons/contacticons/Clockicon";
@@ -23,7 +22,7 @@ const Contact = () => {
           className={`border border-[#e5dbdb] rounded-md px-4 py-4 cursor-pointer ${
             activeTab === 1 ? "bg-[#F8F8F8] border-black" : ""
           }`}
-          onClick={() => handleTabClick(1)} // Set active tab to 1 on click
+          onClick={() => handleTabClick(1)}
         >
           <div className="flex justify-between items-center">
             <div>
@@ -82,7 +81,7 @@ const Contact = () => {
       {activeTab === 2 && <Form />}
       {activeTab === 3 && <Salesform />}
       <div className=" flex gap-4 bg-[#f7f7f7] p-5  rounded-lg mt-5">
-        <Clockicon/>
+        <Clockicon />
         <div className="">
           <h1 className="text-lg font-semibold">Support Hours</h1>
           <p className="text-[#5E5E6F] text-sm font-medium">

@@ -1,4 +1,3 @@
-// src/data/PowerData.js
 import Vetted from "../assets/icons/powerful/Vetted";
 import Personilize from "../assets/icons/powerful/Personilize";
 import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";

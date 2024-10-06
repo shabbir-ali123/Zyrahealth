@@ -1,4 +1,3 @@
-// src/data/PopularData.js
 import PersonalCareIcon from "../assets/icons/homeLove/PersonalCareIcon";
 import HomeMaintance from "../assets/icons/homeLove/HomeMaintance";
 import CarIcon from "../assets/icons/homeLove/CarIcon";

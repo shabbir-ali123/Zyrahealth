@@ -1,4 +1,3 @@
-// src/components/HomeCard.jsx
 import React from "react";
 
 function GuidingPath() {

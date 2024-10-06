@@ -56,13 +56,11 @@ function App() {
           />
         </Route>
 
-        {/* Routes outside of Layout */}
         <Route path="/login" element={<LoginPages />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/check-email" element={<CheckYourEmail />} />
         <Route path="/new-password" element={<NewPassword />} />
 
-        {/* Additional route for Help Cards */}
         <Route path="/help-sections" element={<HelpCard />} />
         <Route path="business-result" element={<BusinessResults />} />
         <Route path="partner-container" element={<PartnerContainer />} />

@@ -1,4 +1,3 @@
-// src/components/ArticleContainer.jsx
 import React from "react";
 import ArticleData from "../../data/ArticleData";
 import ArticleCard from "./ArticleCard";

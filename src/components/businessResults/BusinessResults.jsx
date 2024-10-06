@@ -12,15 +12,14 @@ const BusinessResults = () => {
           </h1>
           <div className="w-[100px] border border-black h-[2px]"></div>
         </div>
-        {/* Flex container with responsive column layout */}
+
         <div className="pt-[53px] md:pl-[150px] flex flex-col md:flex-row items-center">
-          {/* Image with a fixed width */}
           <img
             src={person}
             alt=""
             className="w-[75%] md:w-[330px] h-auto flex-shrink-0 mb-6 md:mb-0"
           />
-          {/* Slider with flex-grow and min-width */}
+
           <div className="slider flex-grow min-w-0 md:ml-4 w-full md:w-auto">
             <BusinessSlider />
           </div>

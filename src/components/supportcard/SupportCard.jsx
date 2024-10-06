@@ -2,7 +2,7 @@ import React from "react";
 
 const SupportCard = ({
   headingLine1 = "Can't find what you are looking for?",
-  // headingLine2 = "are looking for?",
+
   description = "Get the care you need to stay happy and healthy in your home",
   buttonText = "Contact Support",
   imageSrc = "images/Rectangle.png",
@@ -16,9 +16,6 @@ const SupportCard = ({
             <span className="block xl:inline mt-2 max-md:text-center">
               {headingLine1}
             </span>
-            {/* <span className="block xl:inline-block lg:mt-4 max-md:text-center">
-              {headingLine2}
-            </span> */}
           </h1>
           <p className="mt-3 text-xl text-[#5E5E6F] sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 xl:w-[50%]">
             {description}

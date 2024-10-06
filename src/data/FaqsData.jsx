@@ -1,4 +1,3 @@
-// data/FaqsData.js
 const faqsData = [
   {
     id: 1,
