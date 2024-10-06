@@ -12,7 +12,7 @@ const BusinessSlider = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <div className="relative w-full sm:w-[30%] h-[65vh]">
+    <div className="relative w-full sm:w-[90%] h-[65vh]">
       {/* Swiper */}
       <Swiper
         cssMode={true}
