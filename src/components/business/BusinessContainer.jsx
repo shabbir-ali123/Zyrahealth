@@ -137,7 +137,7 @@ const BusinessContainer = ({ title, description, Icon }) => {
         <BusinessResults />
       </section>
       {/* section 7 */}
-      <section className="px-[70px] py-[80px]">
+      <section className=" sm:px-[70px] py-[80px]">
         <img src={Banner} alt="" />
       </section>
     </>

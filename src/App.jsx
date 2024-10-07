@@ -24,7 +24,6 @@ import Getintouchpage from "./pages/Getintouchpage";
 import BecomePartner from "./pages/BecomePartner";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-import GrowYourBusiness from "./pages/GrowYourBusiness";
 
 function App() {
   return (
@@ -45,7 +44,6 @@ function App() {
           <Route path="/help-center" element={<HelpCardsGrid />} />
           <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
           <Route path="/become-partner" element={<BecomePartner />} />
-          <Route path="/grow-your-business" element={<GrowYourBusiness />} />
 
           <Route
             path="/partner-help-center"

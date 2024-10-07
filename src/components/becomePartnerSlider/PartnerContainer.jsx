@@ -7,7 +7,7 @@ const PartnerContainer = () => {
   return (
     <div className='pt-[30px] pb-[50px] bg-[#eefff0]'>
         <div className='flex flex-col items-center'>
-            <h1 className='text-[64px] font-semibold font-poppins'>
+            <h1 className='text-[64px] font-semibold font-poppins text-center'>
             Grow your business
             </h1>
             <p className='text-[24px] font-medium text-[#5E5E6F] text-center'>
