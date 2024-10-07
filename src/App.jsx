@@ -24,10 +24,7 @@ import Getintouchpage from "./pages/Getintouchpage";
 import BecomePartner from "./pages/BecomePartner";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-import BusinessContainer from "./components/business/BusinessContainer";
-import BusinessResults from "./components/businessResults/BusinessResults";
 import GrowYourBusiness from "./pages/GrowYourBusiness";
-import PartnerContainer from "./components/becomePartnerSlider/PartnerContainer";
 
 function App() {
   return (
@@ -62,8 +59,6 @@ function App() {
         <Route path="/new-password" element={<NewPassword />} />
 
         <Route path="/help-sections" element={<HelpCard />} />
-        <Route path="business-result" element={<BusinessResults />} />
-        <Route path="partner-container" element={<PartnerContainer />} />
       </Routes>
     </Router>
   );
