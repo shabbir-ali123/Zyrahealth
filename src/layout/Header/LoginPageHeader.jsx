@@ -8,7 +8,6 @@ function LoginPageHeader() {
 "
     >
       <div className="container mx-auto flex justify-between items-center ">
-        {/* Logo */}
         <div className="font-bold text-2xl">
           <a href="/" className="text-gray-800">
             <svg
