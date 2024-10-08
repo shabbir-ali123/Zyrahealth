@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Login from "../components/Login/Login";
-import Footer from "../layout/footer/footer";
+import Footer from "../layout/footer/Footer";
 function LoginPages() {
   return (
     <>
