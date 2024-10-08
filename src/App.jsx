@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import LoginPages from "./pages/LoginPages";
-import ResetPassword from "./components/login/ResetPassword";
-import CheckYourEmail from "./components/login/CheckEmail";
-import NewPassword from "./components/login/NewPassword";
+import ResetPassword from "./components/Login/ResetPassword";
+import CheckYourEmail from "./components/Login/CheckEmail";
+import NewPassword from "./components/Login/NewPassword";
 import GuidingHeroSection from "./pages/GuidingSection";
 import GuidingPlatform from "./components/guidingPageCompo/GuidingPlatform";
 import GuidingReview from "./components/guidingPageCompo/GuidingReview";
@@ -22,11 +22,8 @@ import ScrollToTop from "./components/scroll/ScrollTop";
 import Getintouchpage from "./pages/Getintouchpage";
 
 import BecomePartner from "./pages/BecomePartner";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import BusinessContainer from "./components/business/BusinessContainer";
-import BusinessResults from "./components/businessResults/BusinessResults";
-import GrowYourBusiness from "./pages/GrowYourBusiness";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -47,7 +44,6 @@ function App() {
           <Route path="/help-center" element={<HelpCardsGrid />} />
           <Route path="/family-help-center" element={<FamilyPartnerHelp />} />
           <Route path="/become-partner" element={<BecomePartner />} />
-          <Route path="/grow-your-business" element={<GrowYourBusiness />} />
 
           <Route
             path="/partner-help-center"
@@ -61,7 +57,6 @@ function App() {
         <Route path="/new-password" element={<NewPassword />} />
 
         <Route path="/help-sections" element={<HelpCard />} />
-        <Route path="business-result" element={<BusinessResults />} />
       </Routes>
     </Router>
   );

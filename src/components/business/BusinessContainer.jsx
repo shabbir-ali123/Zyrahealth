@@ -7,10 +7,16 @@ import FindCare from "../findcare/FindCare";
 import FindCareData from "../../data/FindCareData";
 import Slider from "../slider/Slider";
 import BusinessResults from "../businessResults/BusinessResults";
+import Banner from '../../../public/images/Banner.png'
+import AccessContainer from "../acessCard/AccessContainer";
 
 const BusinessContainer = ({ title, description, Icon }) => {
   return (
     <>
+      <section className="">
+
+      </section>
+      {/* section 1 */}
       <section className=" flex justify-center flex-col">
         <div className="flex flex-col items-center pt-[80px]">
           <h1 className="text-4xl font-semibold text-center">
@@ -92,6 +98,10 @@ const BusinessContainer = ({ title, description, Icon }) => {
       </section>
       {/* section 4 */}
       <section>
+        <AccessContainer />
+      </section>
+      {/* section 5 */}
+      <section>
         <div className="bg-[#F7F7F7]">
           <div className="mx-20 py-[80px]">
             <div className="text-center ">
@@ -122,9 +132,13 @@ const BusinessContainer = ({ title, description, Icon }) => {
           </div>
         </div>
       </section>
-      {/* section 5 */}
+      {/* section 6 */}
       <section>
         <BusinessResults />
+      </section>
+      {/* section 7 */}
+      <section className=" sm:px-[70px] py-[80px]">
+        <img src={Banner} alt="" />
       </section>
     </>
   );
