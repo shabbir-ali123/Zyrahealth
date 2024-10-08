@@ -6,9 +6,9 @@ import HomeSection from "../components/homepage/Hero";
 import FindCareContainer from "../components/findcare/FindCareConatiner";
 import HeroSlider from "../components/homepage/HeroSlider";
 import HeroWrapper from "../components/homepage/HeroWrapper";
-import FaqsContainer from "../components/faqs/FaqsContainer";
+import FaqsContainer from "../components/Faqs/FaqsContainer";
 import KnowledgeContainer from "../components/knowledge/KnowledgeContainer";
-import PlacingHelpSection from "../components/placeing/placeing";
+import PlacingHelpSection from "../components/Placeing/placeing";
 import PopularContainer from "../components/popularserviceCard/PopularContainer";
 
 function HomePage() {
